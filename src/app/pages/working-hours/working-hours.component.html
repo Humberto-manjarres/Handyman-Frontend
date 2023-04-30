@@ -1,0 +1,68 @@
+<div class="row">
+    <div class="col-md-12 card-header bg-info">
+        <h4 class="m-b-0 text-white">Consultar Horas Laboradas</h4>
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Horas Laboradas</h4>
+                <!-- <h6 class="card-subtitle">Información Horas trabajadas</h6> -->
+                <form class="form-horizontal p-t-20" [formGroup]="hoursWorkingForm" (submit)="getHoursWorking()">
+                    <div class="form-group row">
+                        <label for="exampleInputuname3" class="col-sm-4 control-label">Identificación:</label>
+                        <div class="col-sm-8">
+                            <div class="input-group">
+                                <div class="input-group-addon"><i class="ti-user"></i></div>
+                                <input type="text" 
+                                    class="form-control" formControlName="id" id="exampleInputuname3" placeholder="Identificación" autocomplete="off">
+                                </div>
+                                <div class="col text-danger">
+                                    <p *ngIf="invalidField('id')">* La identificación es obligatoria</p>
+                                </div>
+                        </div>
+                    </div> 
+                    <div class="form-group row">
+                        <label for="exampleInputEmail3" class="col-sm-4 control-label">Semanas:</label>
+                        <div class="col-sm-8">
+                            <div class="input-group">
+                               <select name="" id="" class="form-control" formControlName="week">
+                                    <option value="">Seleccionar semana</option>
+                                    <option *ngFor="let week of weeks">{{week}}</option>
+                               </select>
+                            </div>
+                            <div class="col text-danger">
+                                <p *ngIf="invalidFieldSelections('week')">* Seleccionar una semana</p>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="form-group row m-b-0">
+                        <div class="offset-sm-3 col-sm-9">
+                            <button type="submit" 
+                                class="btn btn-success waves-effect waves-light">
+                                <i class="fa fa-search"> Consultar</i>
+                            </button>
+                        </div>
+                    </div>   
+                </form>
+            </div>
+        </div>    
+    </div>
+    <div class="col animated fadeIn fast" 
+            *ngIf="hoursWorking">
+        <div class="card">
+            
+            <div class="card-body">
+                <h3 class="card-title">Horas trabajadas</h3>
+                
+                <label class="control-label">Horas normales:  </label> {{hoursWorking.regularHours}}<br>    
+                <label class="control-label">Horas nocturnas:  </label> {{hoursWorking.nightHours}} <br>   
+                <label class="control-label">sundayHours:  </label> {{hoursWorking.sundayHours}} <br>   
+                <label class="control-label">regularHoursExtras:  </label> {{hoursWorking.regularHoursExtras}} <br>   
+                <label class="control-label">nightHoursExtras:  </label> {{hoursWorking.nightHoursExtras}} <br>   
+                <label class="control-label">sundayOvertime:  </label> {{hoursWorking.sundayOvertime}} <br>   
+                    
+            </div>
+        </div>
+
+    </div>        
+</div>

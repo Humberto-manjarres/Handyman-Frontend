@@ -1,0 +1,1510 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Users\Humberto Manjarres\AppData\Roaming\npm\node_modules\npm\bin\npm-cli.js
+1 info using npm@8.12.2
+2 info using node@v18.13.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:C:\Users\Humberto Manjarres\AppData\Roaming\npm\node_modules\npm\npmrc Completed in 4ms
+6 timing config:load:builtin Completed in 4ms
+7 timing config:load:cli Completed in 3ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 7ms
+11 timing config:load:file:C:\Users\Humberto Manjarres\.npmrc Completed in 0ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\Humberto Manjarres\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 21ms
+19 timing npm:load:configload Completed in 21ms
+20 timing npm:load:mkdirpcache Completed in 1ms
+21 timing npm:load:mkdirplogs Completed in 0ms
+22 verbose title npm install @angular/material@15.1.2
+23 verbose argv "install" "@angular/material@15.1.2"
+24 timing npm:load:setTitle Completed in 1ms
+25 timing config:load:flatten Completed in 4ms
+26 timing npm:load:display Completed in 4ms
+27 verbose logfile logs-max:10 dir:C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\tmpnodejsnpm-cache\_logs
+28 verbose logfile C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\tmpnodejsnpm-cache\_logs\2023-01-29T16_51_50_386Z-debug-0.log
+29 timing npm:load:logFile Completed in 7ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 36ms
+33 timing arborist:ctor Completed in 0ms
+34 silly logfile start cleaning logs, removing 6 files
+35 timing idealTree:init Completed in 582ms
+36 timing idealTree:userRequests Completed in 7ms
+37 silly idealTree buildDeps
+38 silly fetch manifest @angular/material@15.1.2
+39 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+40 silly logfile done cleaning log files
+41 http fetch GET 200 https://registry.npmjs.org/@angular%2fmaterial 1907ms (cache miss)
+42 silly fetch manifest @angular/animations@^15.1.0
+43 http fetch GET 200 https://registry.npmjs.org/@angular%2fanimations 459ms (cache updated)
+44 silly fetch manifest @angular/core@^15.1.0
+45 http fetch GET 200 https://registry.npmjs.org/@angular%2fcore 522ms (cache updated)
+46 silly fetch manifest rxjs@~7.8.0
+47 http fetch GET 200 https://registry.npmjs.org/rxjs 196ms (cache revalidated)
+48 silly fetch manifest zone.js@~0.12.0
+49 http fetch GET 200 https://registry.npmjs.org/zone.js 205ms (cache revalidated)
+50 silly fetch manifest @angular/cdk@15.1.2
+51 http fetch GET 200 https://registry.npmjs.org/@angular%2fcdk 1366ms (cache miss)
+52 silly fetch manifest @angular/common@^15.1.0
+53 http fetch GET 200 https://registry.npmjs.org/@angular%2fcommon 445ms (cache updated)
+54 silly fetch manifest @angular/forms@^15.1.0
+55 http fetch GET 200 https://registry.npmjs.org/@angular%2fforms 1500ms (cache updated)
+56 silly fetch manifest @angular/platform-browser@^15.1.0
+57 http fetch GET 200 https://registry.npmjs.org/@angular%2fplatform-browser 1321ms (cache updated)
+58 silly placeDep ROOT @angular/material@15.1.2 OK for: handyman@0.0.0 want: 15.1.2
+59 silly placeDep ROOT @angular/cdk@15.1.2 OK for: @angular/material@15.1.2 want: 15.1.2
+60 silly fetch manifest @material/animation@15.0.0-canary.684e33d25.0
+61 silly fetch manifest @material/auto-init@15.0.0-canary.684e33d25.0
+62 silly fetch manifest @material/banner@15.0.0-canary.684e33d25.0
+63 silly fetch manifest @material/base@15.0.0-canary.684e33d25.0
+64 silly fetch manifest @material/button@15.0.0-canary.684e33d25.0
+65 silly fetch manifest @material/card@15.0.0-canary.684e33d25.0
+66 silly fetch manifest @material/checkbox@15.0.0-canary.684e33d25.0
+67 silly fetch manifest @material/chips@15.0.0-canary.684e33d25.0
+68 silly fetch manifest @material/circular-progress@15.0.0-canary.684e33d25.0
+69 silly fetch manifest @material/data-table@15.0.0-canary.684e33d25.0
+70 silly fetch manifest @material/density@15.0.0-canary.684e33d25.0
+71 silly fetch manifest @material/dialog@15.0.0-canary.684e33d25.0
+72 silly fetch manifest @material/dom@15.0.0-canary.684e33d25.0
+73 silly fetch manifest @material/drawer@15.0.0-canary.684e33d25.0
+74 silly fetch manifest @material/elevation@15.0.0-canary.684e33d25.0
+75 silly fetch manifest @material/fab@15.0.0-canary.684e33d25.0
+76 silly fetch manifest @material/feature-targeting@15.0.0-canary.684e33d25.0
+77 silly fetch manifest @material/floating-label@15.0.0-canary.684e33d25.0
+78 silly fetch manifest @material/form-field@15.0.0-canary.684e33d25.0
+79 silly fetch manifest @material/icon-button@15.0.0-canary.684e33d25.0
+80 silly fetch manifest @material/image-list@15.0.0-canary.684e33d25.0
+81 silly fetch manifest @material/layout-grid@15.0.0-canary.684e33d25.0
+82 silly fetch manifest @material/line-ripple@15.0.0-canary.684e33d25.0
+83 silly fetch manifest @material/linear-progress@15.0.0-canary.684e33d25.0
+84 silly fetch manifest @material/list@15.0.0-canary.684e33d25.0
+85 silly fetch manifest @material/menu@15.0.0-canary.684e33d25.0
+86 silly fetch manifest @material/menu-surface@15.0.0-canary.684e33d25.0
+87 silly fetch manifest @material/notched-outline@15.0.0-canary.684e33d25.0
+88 silly fetch manifest @material/radio@15.0.0-canary.684e33d25.0
+89 silly fetch manifest @material/ripple@15.0.0-canary.684e33d25.0
+90 silly fetch manifest @material/rtl@15.0.0-canary.684e33d25.0
+91 silly fetch manifest @material/segmented-button@15.0.0-canary.684e33d25.0
+92 silly fetch manifest @material/select@15.0.0-canary.684e33d25.0
+93 silly fetch manifest @material/shape@15.0.0-canary.684e33d25.0
+94 silly fetch manifest @material/slider@15.0.0-canary.684e33d25.0
+95 silly fetch manifest @material/snackbar@15.0.0-canary.684e33d25.0
+96 silly fetch manifest @material/switch@15.0.0-canary.684e33d25.0
+97 silly fetch manifest @material/tab@15.0.0-canary.684e33d25.0
+98 silly fetch manifest @material/tab-bar@15.0.0-canary.684e33d25.0
+99 silly fetch manifest @material/tab-indicator@15.0.0-canary.684e33d25.0
+100 silly fetch manifest @material/tab-scroller@15.0.0-canary.684e33d25.0
+101 silly fetch manifest @material/textfield@15.0.0-canary.684e33d25.0
+102 silly fetch manifest @material/theme@15.0.0-canary.684e33d25.0
+103 silly fetch manifest @material/tooltip@15.0.0-canary.684e33d25.0
+104 silly fetch manifest @material/top-app-bar@15.0.0-canary.684e33d25.0
+105 silly fetch manifest @material/touch-target@15.0.0-canary.684e33d25.0
+106 silly fetch manifest @material/typography@15.0.0-canary.684e33d25.0
+107 silly fetch manifest parse5@^7.1.2
+108 http fetch GET 200 https://registry.npmjs.org/@material%2fbanner 1432ms (cache miss)
+109 http fetch GET 200 https://registry.npmjs.org/@material%2fanimation 2134ms (cache miss)
+110 http fetch GET 200 https://registry.npmjs.org/@material%2ffeature-targeting 4570ms (cache miss)
+111 http fetch GET 200 https://registry.npmjs.org/@material%2ffab 5200ms (cache miss)
+112 http fetch GET 200 https://registry.npmjs.org/@material%2ffloating-label 7447ms (cache miss)
+113 http fetch GET 200 https://registry.npmjs.org/@material%2fbase 7994ms (cache miss)
+114 http fetch GET 200 https://registry.npmjs.org/@material%2fcard 8493ms (cache miss)
+115 http fetch GET 200 https://registry.npmjs.org/@material%2fform-field 8987ms (cache miss)
+116 http fetch GET 200 https://registry.npmjs.org/@material%2ficon-button 10143ms (cache miss)
+117 http fetch GET 200 https://registry.npmjs.org/@material%2fdom 10227ms (cache miss)
+118 http fetch GET 200 https://registry.npmjs.org/@material%2fdata-table 10517ms (cache miss)
+119 http fetch GET 200 https://registry.npmjs.org/@material%2fbutton 11041ms (cache miss)
+120 http fetch GET 200 https://registry.npmjs.org/@material%2fcheckbox 11533ms (cache miss)
+121 http fetch GET 200 https://registry.npmjs.org/@material%2fdialog 12333ms (cache miss)
+122 http fetch GET 200 https://registry.npmjs.org/@material%2fline-ripple 12336ms (cache miss)
+123 http fetch GET 200 https://registry.npmjs.org/@material%2fcircular-progress 12435ms (cache miss)
+124 http fetch GET 200 https://registry.npmjs.org/@material%2fchips 12949ms (cache miss)
+125 http fetch GET 200 https://registry.npmjs.org/@material%2fdrawer 13323ms (cache miss)
+126 http fetch GET 200 https://registry.npmjs.org/@material%2fauto-init 13459ms (cache miss)
+127 http fetch GET 200 https://registry.npmjs.org/@material%2flinear-progress 13490ms (cache miss)
+128 http fetch GET 200 https://registry.npmjs.org/@material%2felevation 13615ms (cache miss)
+129 http fetch GET 200 https://registry.npmjs.org/@material%2fdensity 14662ms (cache miss)
+130 http fetch GET 200 https://registry.npmjs.org/@material%2fripple 16505ms (cache miss)
+131 http fetch GET 200 https://registry.npmjs.org/@material%2fmenu 16598ms (cache miss)
+132 http fetch GET 200 https://registry.npmjs.org/@material%2flist 17551ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/@material%2fslider 17642ms (cache miss)
+134 http fetch GET 200 https://registry.npmjs.org/@material%2fimage-list 18945ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/@material%2fsegmented-button 19084ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/@material%2flayout-grid 19375ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/@material%2fmenu-surface 19865ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/@material%2frtl 21112ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-bar 22001ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/@material%2fnotched-outline 22128ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/@material%2fshape 22248ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-scroller 22354ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/@material%2ftab 22655ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/@material%2fradio 22703ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/parse5 22844ms (cache revalidated)
+146 http fetch GET 200 https://registry.npmjs.org/@material%2ftab-indicator 23032ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/@material%2fselect 23107ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/@material%2fswitch 25117ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/@material%2ftheme 25607ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/@material%2ftypography 25764ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/@material%2ftop-app-bar 26045ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/@material%2ftooltip 26075ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/@material%2fsnackbar 26143ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/@material%2ftextfield 26237ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/@material%2ftouch-target 26629ms (cache miss)
+156 timing idealTree:#root Completed in 34856ms
+157 silly placeDep node_modules/@angular/cdk parse5@7.1.2 OK for: @angular/cdk@15.1.2 want: ^7.1.2
+158 silly fetch manifest entities@^4.4.0
+159 http fetch GET 200 https://registry.npmjs.org/entities 194ms (cache revalidated)
+160 timing idealTree:node_modules/@angular/cdk Completed in 213ms
+161 silly placeDep ROOT @material/animation@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+162 silly placeDep ROOT @material/auto-init@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+163 silly placeDep ROOT @material/banner@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+164 silly placeDep ROOT @material/base@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+165 silly placeDep ROOT @material/button@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+166 silly placeDep ROOT @material/card@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+167 silly placeDep ROOT @material/checkbox@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+168 silly placeDep ROOT @material/chips@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+169 silly placeDep ROOT @material/circular-progress@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+170 silly placeDep ROOT @material/data-table@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+171 silly placeDep ROOT @material/density@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+172 silly placeDep ROOT @material/dialog@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+173 silly placeDep ROOT @material/dom@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+174 silly placeDep ROOT @material/drawer@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+175 silly placeDep ROOT @material/elevation@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+176 silly placeDep ROOT @material/fab@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+177 silly placeDep ROOT @material/feature-targeting@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+178 silly placeDep ROOT @material/floating-label@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+179 silly placeDep ROOT @material/form-field@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+180 silly placeDep ROOT @material/icon-button@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+181 silly placeDep ROOT @material/image-list@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+182 silly placeDep ROOT @material/layout-grid@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+183 silly placeDep ROOT @material/line-ripple@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+184 silly placeDep ROOT @material/linear-progress@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+185 silly placeDep ROOT @material/list@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+186 silly placeDep ROOT @material/menu@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+187 silly placeDep ROOT @material/menu-surface@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+188 silly placeDep ROOT @material/notched-outline@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+189 silly placeDep ROOT @material/radio@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+190 silly placeDep ROOT @material/ripple@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+191 silly placeDep ROOT @material/rtl@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+192 silly placeDep ROOT @material/segmented-button@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+193 silly placeDep ROOT @material/select@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+194 silly placeDep ROOT @material/shape@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+195 silly placeDep ROOT @material/slider@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+196 silly placeDep ROOT @material/snackbar@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+197 silly placeDep ROOT @material/switch@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+198 silly placeDep ROOT @material/tab@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+199 silly placeDep ROOT @material/tab-bar@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+200 silly placeDep ROOT @material/tab-indicator@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+201 silly placeDep ROOT @material/tab-scroller@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+202 silly placeDep ROOT @material/textfield@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+203 silly placeDep ROOT @material/theme@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+204 silly placeDep ROOT @material/tooltip@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+205 silly placeDep ROOT @material/top-app-bar@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+206 silly placeDep ROOT @material/touch-target@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+207 silly placeDep ROOT @material/typography@15.0.0-canary.684e33d25.0 OK for: @angular/material@15.1.2 want: 15.0.0-canary.684e33d25.0
+208 silly fetch manifest @material/tokens@15.0.0-canary.684e33d25.0
+209 silly fetch manifest @material/focus-ring@15.0.0-canary.684e33d25.0
+210 silly fetch manifest safevalues@^0.3.4
+211 silly fetch manifest @material/progress-indicator@15.0.0-canary.684e33d25.0
+212 http fetch GET 200 https://registry.npmjs.org/safevalues 648ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/@material%2ffocus-ring 1756ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/@material%2ftokens 1785ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/@material%2fprogress-indicator 3265ms (cache miss)
+216 timing idealTree:node_modules/@angular/material Completed in 3711ms
+217 timing idealTree:node_modules/@material/animation Completed in 0ms
+218 timing idealTree:node_modules/@material/auto-init Completed in 0ms
+219 silly placeDep ROOT @material/tokens@15.0.0-canary.684e33d25.0 OK for: @material/banner@15.0.0-canary.684e33d25.0 want: 15.0.0-canary.684e33d25.0
+220 timing idealTree:node_modules/@material/banner Completed in 3ms
+221 timing idealTree:node_modules/@material/base Completed in 0ms
+222 silly placeDep ROOT @material/focus-ring@15.0.0-canary.684e33d25.0 OK for: @material/button@15.0.0-canary.684e33d25.0 want: 15.0.0-canary.684e33d25.0
+223 timing idealTree:node_modules/@material/button Completed in 3ms
+224 timing idealTree:node_modules/@material/card Completed in 0ms
+225 timing idealTree:node_modules/@material/checkbox Completed in 0ms
+226 silly placeDep ROOT safevalues@0.3.4 OK for: @material/chips@15.0.0-canary.684e33d25.0 want: ^0.3.4
+227 timing idealTree:node_modules/@material/chips Completed in 3ms
+228 silly placeDep ROOT @material/progress-indicator@15.0.0-canary.684e33d25.0 OK for: @material/circular-progress@15.0.0-canary.684e33d25.0 want: 15.0.0-canary.684e33d25.0
+229 timing idealTree:node_modules/@material/circular-progress Completed in 4ms
+230 timing idealTree:node_modules/@material/data-table Completed in 0ms
+231 timing idealTree:node_modules/@material/density Completed in 0ms
+232 timing idealTree:node_modules/@material/dialog Completed in 0ms
+233 timing idealTree:node_modules/@material/dom Completed in 0ms
+234 timing idealTree:node_modules/@material/drawer Completed in 0ms
+235 timing idealTree:node_modules/@material/elevation Completed in 0ms
+236 timing idealTree:node_modules/@material/fab Completed in 0ms
+237 timing idealTree:node_modules/@material/feature-targeting Completed in 0ms
+238 timing idealTree:node_modules/@material/floating-label Completed in 0ms
+239 timing idealTree:node_modules/@material/focus-ring Completed in 0ms
+240 timing idealTree:node_modules/@material/form-field Completed in 0ms
+241 timing idealTree:node_modules/@material/icon-button Completed in 0ms
+242 timing idealTree:node_modules/@material/image-list Completed in 0ms
+243 timing idealTree:node_modules/@material/layout-grid Completed in 0ms
+244 timing idealTree:node_modules/@material/line-ripple Completed in 1ms
+245 timing idealTree:node_modules/@material/linear-progress Completed in 0ms
+246 timing idealTree:node_modules/@material/list Completed in 0ms
+247 timing idealTree:node_modules/@material/menu Completed in 0ms
+248 timing idealTree:node_modules/@material/menu-surface Completed in 0ms
+249 timing idealTree:node_modules/@material/notched-outline Completed in 0ms
+250 timing idealTree:node_modules/@material/progress-indicator Completed in 0ms
+251 timing idealTree:node_modules/@material/radio Completed in 0ms
+252 timing idealTree:node_modules/@material/ripple Completed in 0ms
+253 timing idealTree:node_modules/@material/rtl Completed in 0ms
+254 timing idealTree:node_modules/@material/segmented-button Completed in 0ms
+255 timing idealTree:node_modules/@material/select Completed in 0ms
+256 timing idealTree:node_modules/@material/shape Completed in 0ms
+257 timing idealTree:node_modules/@material/slider Completed in 0ms
+258 timing idealTree:node_modules/@material/snackbar Completed in 0ms
+259 timing idealTree:node_modules/@material/switch Completed in 0ms
+260 timing idealTree:node_modules/@material/tab Completed in 0ms
+261 timing idealTree:node_modules/@material/tab-bar Completed in 0ms
+262 timing idealTree:node_modules/@material/tab-indicator Completed in 0ms
+263 timing idealTree:node_modules/@material/tab-scroller Completed in 0ms
+264 timing idealTree:node_modules/@material/textfield Completed in 0ms
+265 timing idealTree:node_modules/@material/theme Completed in 0ms
+266 timing idealTree:node_modules/@material/tokens Completed in 0ms
+267 timing idealTree:node_modules/@material/tooltip Completed in 0ms
+268 timing idealTree:node_modules/@material/top-app-bar Completed in 0ms
+269 timing idealTree:node_modules/@material/touch-target Completed in 0ms
+270 timing idealTree:node_modules/@material/typography Completed in 0ms
+271 timing idealTree:node_modules/safevalues Completed in 0ms
+272 silly placeDep node_modules/@angular/cdk entities@4.4.0 OK for: parse5@7.1.2 want: ^4.4.0
+273 timing idealTree:node_modules/@angular/cdk/node_modules/parse5 Completed in 2ms
+274 timing idealTree:node_modules/@angular/cdk/node_modules/entities Completed in 0ms
+275 timing idealTree:buildDeps Completed in 38808ms
+276 timing idealTree:fixDepFlags Completed in 18ms
+277 timing idealTree Completed in 39434ms
+278 timing reify:loadTrees Completed in 39436ms
+279 timing reify:diffTrees Completed in 125ms
+280 silly reify mark retired [
+280 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\__ngcc_entry_points__.json'
+280 silly reify ]
+281 silly reify moves {
+281 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\__ngcc_entry_points__.json': 'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.__ngcc_entry_points__.json-MJR70ocV'
+281 silly reify }
+282 timing reify:retireShallow Completed in 12ms
+283 timing reify:createSparse Completed in 63ms
+284 timing reify:loadBundles Completed in 0ms
+285 silly audit bulk request {
+285 silly audit   '@ampproject/remapping': [ '2.2.0' ],
+285 silly audit   '@angular-devkit/architect': [ '0.1501.2' ],
+285 silly audit   rxjs: [ '6.6.7', '7.8.0' ],
+285 silly audit   tslib: [ '1.14.1', '2.4.1' ],
+285 silly audit   '@angular-devkit/build-angular': [ '15.1.2' ],
+285 silly audit   '@angular-devkit/build-webpack': [ '0.1501.2' ],
+285 silly audit   '@angular-devkit/core': [ '15.1.2' ],
+285 silly audit   '@angular-devkit/schematics': [ '15.1.2' ],
+285 silly audit   '@angular/animations': [ '15.1.1' ],
+285 silly audit   '@angular/cli': [ '15.1.2' ],
+285 silly audit   '@angular/common': [ '15.1.1' ],
+285 silly audit   '@angular/compiler': [ '15.1.1' ],
+285 silly audit   '@angular/compiler-cli': [ '15.1.1' ],
+285 silly audit   '@babel/core': [ '7.19.3', '7.20.12' ],
+285 silly audit   semver: [ '6.3.0', '5.7.1', '7.3.8' ],
+285 silly audit   '@angular/core': [ '15.1.1' ],
+285 silly audit   '@angular/forms': [ '15.1.1' ],
+285 silly audit   '@angular/platform-browser': [ '15.1.1' ],
+285 silly audit   '@angular/platform-browser-dynamic': [ '15.1.1' ],
+285 silly audit   '@angular/router': [ '15.1.1' ],
+285 silly audit   '@assemblyscript/loader': [ '0.10.1' ],
+285 silly audit   '@babel/code-frame': [ '7.18.6' ],
+285 silly audit   '@babel/compat-data': [ '7.20.10' ],
+285 silly audit   '@babel/generator': [ '7.20.7' ],
+285 silly audit   '@jridgewell/gen-mapping': [ '0.3.2', '0.1.1' ],
+285 silly audit   '@babel/helper-annotate-as-pure': [ '7.18.6' ],
+285 silly audit   '@babel/helper-builder-binary-assignment-operator-visitor': [ '7.18.9' ],
+285 silly audit   '@babel/helper-compilation-targets': [ '7.20.7' ],
+285 silly audit   '@babel/helper-create-class-features-plugin': [ '7.20.12' ],
+285 silly audit   '@babel/helper-create-regexp-features-plugin': [ '7.20.5' ],
+285 silly audit   '@babel/helper-define-polyfill-provider': [ '0.3.3' ],
+285 silly audit   '@babel/helper-environment-visitor': [ '7.18.9' ],
+285 silly audit   '@babel/helper-explode-assignable-expression': [ '7.18.6' ],
+285 silly audit   '@babel/helper-function-name': [ '7.19.0' ],
+285 silly audit   '@babel/helper-hoist-variables': [ '7.18.6' ],
+285 silly audit   '@babel/helper-member-expression-to-functions': [ '7.20.7' ],
+285 silly audit   '@babel/helper-module-imports': [ '7.18.6' ],
+285 silly audit   '@babel/helper-module-transforms': [ '7.20.11' ],
+285 silly audit   '@babel/helper-optimise-call-expression': [ '7.18.6' ],
+285 silly audit   '@babel/helper-plugin-utils': [ '7.20.2' ],
+285 silly audit   '@babel/helper-remap-async-to-generator': [ '7.18.9' ],
+285 silly audit   '@babel/helper-replace-supers': [ '7.20.7' ],
+285 silly audit   '@babel/helper-simple-access': [ '7.20.2' ],
+285 silly audit   '@babel/helper-skip-transparent-expression-wrappers': [ '7.20.0' ],
+285 silly audit   '@babel/helper-split-export-declaration': [ '7.18.6' ],
+285 silly audit   '@babel/helper-string-parser': [ '7.19.4' ],
+285 silly audit   '@babel/helper-validator-identifier': [ '7.19.1' ],
+285 silly audit   '@babel/helper-validator-option': [ '7.18.6' ],
+285 silly audit   '@babel/helper-wrap-function': [ '7.20.5' ],
+285 silly audit   '@babel/helpers': [ '7.20.7' ],
+285 silly audit   '@babel/highlight': [ '7.18.6' ],
+285 silly audit   '@babel/parser': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-bugfix-safari-id-destructuring-collision-in-function-expression': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-bugfix-v8-spread-parameters-in-optional-chaining': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-proposal-async-generator-functions': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-proposal-class-properties': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-class-static-block': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-proposal-dynamic-import': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-export-namespace-from': [ '7.18.9' ],
+285 silly audit   '@babel/plugin-proposal-json-strings': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-logical-assignment-operators': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-proposal-nullish-coalescing-operator': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-numeric-separator': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-object-rest-spread': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-proposal-optional-catch-binding': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-optional-chaining': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-proposal-private-methods': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-proposal-private-property-in-object': [ '7.20.5' ],
+285 silly audit   '@babel/plugin-proposal-unicode-property-regex': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-syntax-async-generators': [ '7.8.4' ],
+285 silly audit   '@babel/plugin-syntax-class-properties': [ '7.12.13' ],
+285 silly audit   '@babel/plugin-syntax-class-static-block': [ '7.14.5' ],
+285 silly audit   '@babel/plugin-syntax-dynamic-import': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-export-namespace-from': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-import-assertions': [ '7.20.0' ],
+285 silly audit   '@babel/plugin-syntax-json-strings': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-logical-assignment-operators': [ '7.10.4' ],
+285 silly audit   '@babel/plugin-syntax-nullish-coalescing-operator': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-numeric-separator': [ '7.10.4' ],
+285 silly audit   '@babel/plugin-syntax-object-rest-spread': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-optional-catch-binding': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-optional-chaining': [ '7.8.3' ],
+285 silly audit   '@babel/plugin-syntax-private-property-in-object': [ '7.14.5' ],
+285 silly audit   '@babel/plugin-syntax-top-level-await': [ '7.14.5' ],
+285 silly audit   '@babel/plugin-transform-arrow-functions': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-async-to-generator': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-block-scoped-functions': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-block-scoping': [ '7.20.11' ],
+285 silly audit   '@babel/plugin-transform-classes': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-computed-properties': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-destructuring': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-dotall-regex': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-duplicate-keys': [ '7.18.9' ],
+285 silly audit   '@babel/plugin-transform-exponentiation-operator': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-for-of': [ '7.18.8' ],
+285 silly audit   '@babel/plugin-transform-function-name': [ '7.18.9' ],
+285 silly audit   '@babel/plugin-transform-literals': [ '7.18.9' ],
+285 silly audit   '@babel/plugin-transform-member-expression-literals': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-modules-amd': [ '7.20.11' ],
+285 silly audit   '@babel/plugin-transform-modules-commonjs': [ '7.20.11' ],
+285 silly audit   '@babel/plugin-transform-modules-systemjs': [ '7.20.11' ],
+285 silly audit   '@babel/plugin-transform-modules-umd': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-named-capturing-groups-regex': [ '7.20.5' ],
+285 silly audit   '@babel/plugin-transform-new-target': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-object-super': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-parameters': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-property-literals': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-regenerator': [ '7.20.5' ],
+285 silly audit   '@babel/plugin-transform-reserved-words': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-runtime': [ '7.19.6' ],
+285 silly audit   '@babel/plugin-transform-shorthand-properties': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-spread': [ '7.20.7' ],
+285 silly audit   '@babel/plugin-transform-sticky-regex': [ '7.18.6' ],
+285 silly audit   '@babel/plugin-transform-template-literals': [ '7.18.9' ],
+285 silly audit   '@babel/plugin-transform-typeof-symbol': [ '7.18.9' ],
+285 silly audit   '@babel/plugin-transform-unicode-escapes': [ '7.18.10' ],
+285 silly audit   '@babel/plugin-transform-unicode-regex': [ '7.18.6' ],
+285 silly audit   '@babel/preset-env': [ '7.20.2' ],
+285 silly audit   '@babel/preset-modules': [ '0.1.5' ],
+285 silly audit   '@babel/runtime': [ '7.20.7' ],
+285 silly audit   '@babel/template': [ '7.20.7' ],
+285 silly audit   '@babel/traverse': [ '7.20.12' ],
+285 silly audit   '@babel/types': [ '7.20.7' ],
+285 silly audit   '@colors/colors': [ '1.5.0' ],
+285 silly audit   '@discoveryjs/json-ext': [ '0.5.7' ],
+285 silly audit   '@esbuild/android-arm': [ '0.16.17' ],
+285 silly audit   '@esbuild/android-arm64': [ '0.16.17' ],
+285 silly audit   '@esbuild/android-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/darwin-arm64': [ '0.16.17' ],
+285 silly audit   '@esbuild/darwin-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/freebsd-arm64': [ '0.16.17' ],
+285 silly audit   '@esbuild/freebsd-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-arm': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-arm64': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-ia32': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-loong64': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-mips64el': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-ppc64': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-riscv64': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-s390x': [ '0.16.17' ],
+285 silly audit   '@esbuild/linux-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/netbsd-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/openbsd-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/sunos-x64': [ '0.16.17' ],
+285 silly audit   '@esbuild/win32-arm64': [ '0.16.17' ],
+285 silly audit   '@esbuild/win32-ia32': [ '0.16.17' ],
+285 silly audit   '@esbuild/win32-x64': [ '0.16.17' ],
+285 silly audit   '@gar/promisify': [ '1.1.3' ],
+285 silly audit   '@istanbuljs/load-nyc-config': [ '1.1.0' ],
+285 silly audit   '@istanbuljs/schema': [ '0.1.3' ],
+285 silly audit   '@jridgewell/resolve-uri': [ '3.1.0' ],
+285 silly audit   '@jridgewell/set-array': [ '1.1.2' ],
+285 silly audit   '@jridgewell/source-map': [ '0.3.2' ],
+285 silly audit   '@jridgewell/sourcemap-codec': [ '1.4.14' ],
+285 silly audit   '@jridgewell/trace-mapping': [ '0.3.17' ],
+285 silly audit   '@leichtgewicht/ip-codec': [ '2.0.4' ],
+285 silly audit   '@ngtools/webpack': [ '15.1.2' ],
+285 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+285 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+285 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+285 silly audit   '@npmcli/fs': [ '3.1.0', '2.1.2' ],
+285 silly audit   '@npmcli/git': [ '4.0.3' ],
+285 silly audit   'lru-cache': [ '7.14.1', '5.1.1', '6.0.0' ],
+285 silly audit   mkdirp: [ '1.0.4', '0.5.6' ],
+285 silly audit   which: [ '3.0.0', '2.0.2', '1.3.1' ],
+285 silly audit   '@npmcli/installed-package-contents': [ '2.0.1' ],
+285 silly audit   '@npmcli/move-file': [ '2.0.1' ],
+285 silly audit   '@npmcli/node-gyp': [ '3.0.0' ],
+285 silly audit   '@npmcli/promise-spawn': [ '6.0.2' ],
+285 silly audit   '@npmcli/run-script': [ '6.0.0' ],
+285 silly audit   '@schematics/angular': [ '15.1.2' ],
+285 silly audit   '@socket.io/component-emitter': [ '3.1.0' ],
+285 silly audit   '@tootallnate/once': [ '2.0.0' ],
+285 silly audit   '@types/body-parser': [ '1.19.2' ],
+285 silly audit   '@types/bonjour': [ '3.5.10' ],
+285 silly audit   '@types/connect': [ '3.4.35' ],
+285 silly audit   '@types/connect-history-api-fallback': [ '1.3.5' ],
+285 silly audit   '@types/cookie': [ '0.4.1' ],
+285 silly audit   '@types/cors': [ '2.8.13' ],
+285 silly audit   '@types/eslint': [ '8.4.10' ],
+285 silly audit   '@types/eslint-scope': [ '3.7.4' ],
+285 silly audit   '@types/estree': [ '0.0.51' ],
+285 silly audit   '@types/express': [ '4.17.15' ],
+285 silly audit   '@types/express-serve-static-core': [ '4.17.32' ],
+285 silly audit   '@types/http-proxy': [ '1.17.9' ],
+285 silly audit   '@types/jasmine': [ '4.3.1' ],
+285 silly audit   '@types/json-schema': [ '7.0.11' ],
+285 silly audit   '@types/mime': [ '3.0.1' ],
+285 silly audit   '@types/node': [ '18.11.18' ],
+285 silly audit   '@types/parse-json': [ '4.0.0' ],
+285 silly audit   '@types/qs': [ '6.9.7' ],
+285 silly audit   '@types/range-parser': [ '1.2.4' ],
+285 silly audit   '@types/retry': [ '0.12.0' ],
+285 silly audit   '@types/serve-index': [ '1.9.1' ],
+285 silly audit   '@types/serve-static': [ '1.15.0' ],
+285 silly audit   '@types/sockjs': [ '0.3.33' ],
+285 silly audit   '@types/ws': [ '8.5.4' ],
+285 silly audit   '@webassemblyjs/ast': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/floating-point-hex-parser': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/helper-api-error': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/helper-buffer': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/helper-numbers': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/helper-wasm-bytecode': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/helper-wasm-section': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/ieee754': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/leb128': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/utf8': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/wasm-edit': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/wasm-gen': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/wasm-opt': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/wasm-parser': [ '1.11.1' ],
+285 silly audit   '@webassemblyjs/wast-printer': [ '1.11.1' ],
+285 silly audit   '@xtuc/ieee754': [ '1.2.0' ],
+285 silly audit   '@xtuc/long': [ '4.2.2' ],
+285 silly audit   '@yarnpkg/lockfile': [ '1.1.0' ],
+285 silly audit   abab: [ '2.0.6' ],
+285 silly audit   abbrev: [ '1.1.1' ],
+285 silly audit   accepts: [ '1.3.8' ],
+285 silly audit   acorn: [ '8.8.1' ],
+285 silly audit   'acorn-import-assertions': [ '1.8.0' ],
+285 silly audit   'adjust-sourcemap-loader': [ '4.0.0' ],
+285 silly audit   'loader-utils': [ '2.0.4', '3.2.1' ],
+285 silly audit   'agent-base': [ '6.0.2' ],
+285 silly audit   agentkeepalive: [ '4.2.1' ],
+285 silly audit   depd: [ '1.1.2', '2.0.0' ],
+285 silly audit   'aggregate-error': [ '3.1.0' ],
+285 silly audit   ajv: [ '8.12.0', '6.12.6' ],
+285 silly audit   'ajv-formats': [ '2.1.1' ],
+285 silly audit   'ajv-keywords': [ '5.1.0', '3.5.2' ],
+285 silly audit   'ansi-colors': [ '4.1.3' ],
+285 silly audit   'ansi-escapes': [ '4.3.2' ],
+285 silly audit   'ansi-html-community': [ '0.0.8' ],
+285 silly audit   'ansi-regex': [ '5.0.1' ],
+285 silly audit   'ansi-styles': [ '3.2.1', '4.3.0' ],
+285 silly audit   anymatch: [ '3.1.3' ],
+285 silly audit   aproba: [ '2.0.0' ],
+285 silly audit   'are-we-there-yet': [ '3.0.1' ],
+285 silly audit   argparse: [ '1.0.10' ],
+285 silly audit   'array-flatten': [ '2.1.2', '1.1.1' ],
+285 silly audit   autoprefixer: [ '10.4.13' ],
+285 silly audit   'babel-loader': [ '9.1.2' ],
+285 silly audit   'babel-plugin-istanbul': [ '6.1.1' ],
+285 silly audit   'babel-plugin-polyfill-corejs2': [ '0.3.3' ],
+285 silly audit   'babel-plugin-polyfill-corejs3': [ '0.6.0' ],
+285 silly audit   'babel-plugin-polyfill-regenerator': [ '0.4.1' ],
+285 silly audit   'balanced-match': [ '1.0.2' ],
+285 silly audit   'base64-js': [ '1.5.1' ],
+285 silly audit   base64id: [ '2.0.0' ],
+285 silly audit   batch: [ '0.6.1' ],
+285 silly audit   'big.js': [ '5.2.2' ],
+285 silly audit   'binary-extensions': [ '2.2.0' ],
+285 silly audit   bl: [ '4.1.0' ],
+285 silly audit   'body-parser': [ '1.20.1' ],
+285 silly audit   debug: [ '2.6.9', '4.3.4', '3.2.7' ],
+285 silly audit   ms: [ '2.0.0', '2.1.2', '2.1.3' ],
+285 silly audit   'bonjour-service': [ '1.1.0' ],
+285 silly audit   boolbase: [ '1.0.0' ],
+285 silly audit   'brace-expansion': [ '2.0.1', '1.1.11' ],
+285 silly audit   braces: [ '3.0.2' ],
+285 silly audit   browserslist: [ '4.21.4' ],
+285 silly audit   buffer: [ '5.7.1' ],
+285 silly audit   'buffer-from': [ '1.1.2' ],
+285 silly audit   builtins: [ '5.0.1' ],
+285 silly audit   bytes: [ '3.1.2', '3.0.0' ],
+285 silly audit   cacache: [ '17.0.4', '16.1.3' ],
+285 silly audit   'call-bind': [ '1.0.2' ],
+285 silly audit   callsites: [ '3.1.0' ],
+285 silly audit   camelcase: [ '5.3.1' ],
+285 silly audit   'caniuse-lite': [ '1.0.30001446' ],
+285 silly audit   chalk: [ '2.4.2', '4.1.2' ],
+285 silly audit   chardet: [ '0.7.0' ],
+285 silly audit   chokidar: [ '3.5.3' ],
+285 silly audit   chownr: [ '2.0.0' ],
+285 silly audit   'chrome-trace-event': [ '1.0.3' ],
+285 silly audit   'clean-stack': [ '2.2.0' ],
+285 silly audit   'cli-cursor': [ '3.1.0' ],
+285 silly audit   'cli-spinners': [ '2.7.0' ],
+285 silly audit   'cli-width': [ '3.0.0' ],
+285 silly audit   cliui: [ '8.0.1', '7.0.4' ],
+285 silly audit   clone: [ '1.0.4' ],
+285 silly audit   'clone-deep': [ '4.0.1' ],
+285 silly audit   'color-convert': [ '1.9.3', '2.0.1' ],
+285 silly audit   'color-name': [ '1.1.3', '1.1.4' ],
+285 silly audit   'color-support': [ '1.1.3' ],
+285 silly audit   colorette: [ '2.0.19' ],
+285 silly audit   commander: [ '2.20.3' ],
+285 silly audit   commondir: [ '1.0.1' ],
+285 silly audit   compressible: [ '2.0.18' ],
+285 silly audit   compression: [ '1.7.4' ],
+285 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+285 silly audit   'concat-map': [ '0.0.1' ],
+285 silly audit   connect: [ '3.7.0' ],
+285 silly audit   'connect-history-api-fallback': [ '2.0.0' ],
+285 silly audit   'console-control-strings': [ '1.1.0' ],
+285 silly audit   'content-disposition': [ '0.5.4' ],
+285 silly audit   'content-type': [ '1.0.4' ],
+285 silly audit   'convert-source-map': [ '1.9.0' ],
+285 silly audit   cookie: [ '0.4.2', '0.5.0' ],
+285 silly audit   'cookie-signature': [ '1.0.6' ],
+285 silly audit   'copy-anything': [ '2.0.6' ],
+285 silly audit   'copy-webpack-plugin': [ '11.0.0' ],
+285 silly audit   'glob-parent': [ '6.0.2', '5.1.2' ],
+285 silly audit   'core-js-compat': [ '3.27.2' ],
+285 silly audit   'core-util-is': [ '1.0.3' ],
+285 silly audit   cors: [ '2.8.5' ],
+285 silly audit   cosmiconfig: [ '7.1.0' ],
+285 silly audit   critters: [ '0.0.16' ],
+285 silly audit   'has-flag': [ '4.0.0', '3.0.0' ],
+285 silly audit   'supports-color': [ '7.2.0', '8.1.1', '5.5.0' ],
+285 silly audit   'cross-spawn': [ '7.0.3' ],
+285 silly audit   'css-loader': [ '6.7.3' ],
+285 silly audit   'css-select': [ '4.3.0' ],
+285 silly audit   'css-what': [ '6.1.0' ],
+285 silly audit   cssesc: [ '3.0.0' ],
+285 silly audit   'custom-event': [ '1.0.1' ],
+285 silly audit   'date-format': [ '4.0.14' ],
+285 silly audit   'default-gateway': [ '6.0.3' ],
+285 silly audit   defaults: [ '1.0.4' ],
+285 silly audit   'define-lazy-prop': [ '2.0.0' ],
+285 silly audit   delegates: [ '1.0.0' ],
+285 silly audit   'dependency-graph': [ '0.11.0' ],
+285 silly audit   destroy: [ '1.2.0' ],
+285 silly audit   'detect-node': [ '2.1.0' ],
+285 silly audit   di: [ '0.0.1' ],
+285 silly audit   'dir-glob': [ '3.0.1' ],
+285 silly audit   'dns-equal': [ '1.0.0' ],
+285 silly audit   'dns-packet': [ '5.4.0' ],
+285 silly audit   'dom-serialize': [ '2.2.1' ],
+285 silly audit   'dom-serializer': [ '1.4.1' ],
+285 silly audit   domelementtype: [ '2.3.0' ],
+285 silly audit   domhandler: [ '4.3.1' ],
+285 silly audit   domutils: [ '2.8.0' ],
+285 silly audit   'ee-first': [ '1.1.1' ],
+285 silly audit   'electron-to-chromium': [ '1.4.284' ],
+285 silly audit   'emoji-regex': [ '8.0.0' ],
+285 silly audit   'emojis-list': [ '3.0.0' ],
+285 silly audit   encodeurl: [ '1.0.2' ],
+285 silly audit   encoding: [ '0.1.13' ],
+285 silly audit   'iconv-lite': [ '0.6.3', '0.4.24' ],
+285 silly audit   'engine.io': [ '6.2.1' ],
+285 silly audit   'engine.io-parser': [ '5.0.6' ],
+285 silly audit   'enhanced-resolve': [ '5.12.0' ],
+285 silly audit   ent: [ '2.2.0' ],
+285 silly audit   entities: [ '2.2.0', '4.4.0' ],
+285 silly audit   'env-paths': [ '2.2.1' ],
+285 silly audit   'err-code': [ '2.0.3' ],
+285 silly audit   errno: [ '0.1.8' ],
+285 silly audit   'error-ex': [ '1.3.2' ],
+285 silly audit   'es-module-lexer': [ '0.9.3' ],
+285 silly audit   esbuild: [ '0.16.17' ],
+285 silly audit   'esbuild-wasm': [ '0.16.17' ],
+285 silly audit   escalade: [ '3.1.1' ],
+285 silly audit   'escape-html': [ '1.0.3' ],
+285 silly audit   'escape-string-regexp': [ '1.0.5' ],
+285 silly audit   'eslint-scope': [ '5.1.1' ],
+285 silly audit   esprima: [ '4.0.1' ],
+285 silly audit   esrecurse: [ '4.3.0' ],
+285 silly audit   estraverse: [ '5.3.0', '4.3.0' ],
+285 silly audit   esutils: [ '2.0.3' ],
+285 silly audit   etag: [ '1.8.1' ],
+285 silly audit   'eventemitter-asyncresource': [ '1.0.0' ],
+285 silly audit   eventemitter3: [ '4.0.7' ],
+285 silly audit   events: [ '3.3.0' ],
+285 silly audit   execa: [ '5.1.1' ],
+285 silly audit   express: [ '4.18.2' ],
+285 silly audit   finalhandler: [ '1.2.0', '1.1.2' ],
+285 silly audit   statuses: [ '2.0.1', '1.5.0' ],
+285 silly audit   extend: [ '3.0.2' ],
+285 silly audit   'external-editor': [ '3.1.0' ],
+285 silly audit   'fast-deep-equal': [ '3.1.3' ],
+285 silly audit   'fast-glob': [ '3.2.12' ],
+285 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+285 silly audit   fastq: [ '1.15.0' ],
+285 silly audit   'faye-websocket': [ '0.11.4' ],
+285 silly audit   figures: [ '3.2.0' ],
+285 silly audit   'fill-range': [ '7.0.1' ],
+285 silly audit   'on-finished': [ '2.3.0', '2.4.1' ],
+285 silly audit   'find-cache-dir': [ '3.3.2' ],
+285 silly audit   'find-up': [ '4.1.0' ],
+285 silly audit   flatted: [ '3.2.7' ],
+285 silly audit   'follow-redirects': [ '1.15.2' ],
+285 silly audit   forwarded: [ '0.2.0' ],
+285 silly audit   'fraction.js': [ '4.2.0' ],
+285 silly audit   fresh: [ '0.5.2' ],
+285 silly audit   'fs-extra': [ '8.1.0' ],
+285 silly audit   'fs-minipass': [ '3.0.0', '2.1.0' ],
+285 silly audit   'fs-monkey': [ '1.0.3' ],
+285 silly audit   'fs.realpath': [ '1.0.0' ],
+285 silly audit   fsevents: [ '2.3.2' ],
+285 silly audit   'function-bind': [ '1.1.1' ],
+285 silly audit   gauge: [ '4.0.4' ],
+285 silly audit   gensync: [ '1.0.0-beta.2' ],
+285 silly audit   'get-caller-file': [ '2.0.5' ],
+285 silly audit   'get-intrinsic': [ '1.2.0' ],
+285 silly audit   'get-package-type': [ '0.1.0' ],
+285 silly audit   'get-stream': [ '6.0.1' ],
+285 silly audit   glob: [ '8.0.3', '7.2.3' ],
+285 silly audit   'glob-to-regexp': [ '0.4.1' ],
+285 silly audit   globals: [ '11.12.0' ],
+285 silly audit   globby: [ '13.1.3' ],
+285 silly audit   'graceful-fs': [ '4.2.10' ],
+285 silly audit   'handle-thing': [ '2.0.1' ],
+285 silly audit   has: [ '1.0.3' ],
+285 silly audit   'has-symbols': [ '1.0.3' ],
+285 silly audit   'has-unicode': [ '2.0.1' ],
+285 silly audit   'hdr-histogram-js': [ '2.0.3' ],
+285 silly audit   'hdr-histogram-percentiles-obj': [ '3.0.0' ],
+285 silly audit   'hosted-git-info': [ '6.1.1' ],
+285 silly audit   'hpack.js': [ '2.1.6' ],
+285 silly audit   'readable-stream': [ '2.3.7', '3.6.0' ],
+285 silly audit   string_decoder: [ '1.1.1', '1.3.0' ],
+285 silly audit   'html-entities': [ '2.3.3' ],
+285 silly audit   'html-escaper': [ '2.0.2' ],
+285 silly audit   'http-cache-semantics': [ '4.1.0' ],
+285 silly audit   'http-deceiver': [ '1.2.7' ],
+285 silly audit   'http-errors': [ '2.0.0', '1.6.3' ],
+285 silly audit   'http-parser-js': [ '0.5.8' ],
+285 silly audit   'http-proxy': [ '1.18.1' ],
+285 silly audit   'http-proxy-agent': [ '5.0.0' ],
+285 silly audit   'http-proxy-middleware': [ '2.0.6' ],
+285 silly audit   'https-proxy-agent': [ '5.0.1' ],
+285 silly audit   'human-signals': [ '2.1.0' ],
+285 silly audit   'humanize-ms': [ '1.2.1' ],
+285 silly audit   'icss-utils': [ '5.1.0' ],
+285 silly audit   ieee754: [ '1.2.1' ],
+285 silly audit   ignore: [ '5.2.4' ],
+285 silly audit   'ignore-walk': [ '6.0.0' ],
+285 silly audit   'image-size': [ '0.5.5' ],
+285 silly audit   immutable: [ '4.2.2' ],
+285 silly audit   'import-fresh': [ '3.3.0' ],
+285 silly audit   'resolve-from': [ '4.0.0', '5.0.0' ],
+285 silly audit   imurmurhash: [ '0.1.4' ],
+285 silly audit   'indent-string': [ '4.0.0' ],
+285 silly audit   'infer-owner': [ '1.0.4' ],
+285 silly audit   inflight: [ '1.0.6' ],
+285 silly audit   inherits: [ '2.0.4', '2.0.3' ],
+285 silly audit   ini: [ '3.0.1' ],
+285 silly audit   inquirer: [ '8.2.4' ],
+285 silly audit   ip: [ '2.0.0' ],
+285 silly audit   'ipaddr.js': [ '2.0.1', '1.9.1' ],
+285 silly audit   'is-arrayish': [ '0.2.1' ],
+285 silly audit   'is-binary-path': [ '2.1.0' ],
+285 silly audit   'is-core-module': [ '2.11.0' ],
+285 silly audit   'is-docker': [ '2.2.1' ],
+285 silly audit   'is-extglob': [ '2.1.1' ],
+285 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+285 silly audit   'is-glob': [ '4.0.3' ],
+285 silly audit   'is-interactive': [ '1.0.0' ],
+285 silly audit   'is-lambda': [ '1.0.1' ],
+285 silly audit   'is-number': [ '7.0.0' ],
+285 silly audit   'is-plain-obj': [ '3.0.0' ],
+285 silly audit   'is-plain-object': [ '2.0.4' ],
+285 silly audit   'is-stream': [ '2.0.1' ],
+285 silly audit   'is-unicode-supported': [ '0.1.0' ],
+285 silly audit   'is-what': [ '3.14.1' ],
+285 silly audit   'is-wsl': [ '2.2.0' ],
+285 silly audit   isarray: [ '1.0.0' ],
+285 silly audit   isbinaryfile: [ '4.0.10' ],
+285 silly audit   isexe: [ '2.0.0' ],
+285 silly audit   isobject: [ '3.0.1' ],
+285 silly audit   'istanbul-lib-coverage': [ '3.2.0' ],
+285 silly audit   'istanbul-lib-instrument': [ '5.2.1' ],
+285 silly audit   'istanbul-lib-report': [ '3.0.0' ],
+285 silly audit   'istanbul-lib-source-maps': [ '4.0.1' ],
+285 silly audit   'source-map': [ '0.6.1', '0.7.4' ],
+285 silly audit   'istanbul-reports': [ '3.1.5' ],
+285 silly audit   'jasmine-core': [ '4.5.0' ],
+285 silly audit   'jest-worker': [ '27.5.1' ],
+285 silly audit   'js-tokens': [ '4.0.0' ],
+285 silly audit   'js-yaml': [ '3.14.1' ],
+285 silly audit   jsesc: [ '2.5.2', '0.5.0' ],
+285 silly audit   'json-parse-even-better-errors': [ '2.3.1', '3.0.0' ],
+285 silly audit   'json-schema-traverse': [ '1.0.0', '0.4.1' ],
+285 silly audit   json5: [ '2.2.3' ],
+285 silly audit   'jsonc-parser': [ '3.2.0' ],
+285 silly audit   jsonfile: [ '4.0.0' ],
+285 silly audit   jsonparse: [ '1.3.1' ],
+285 silly audit   karma: [ '6.4.1' ],
+285 silly audit   'karma-chrome-launcher': [ '3.1.1' ],
+285 silly audit   'karma-coverage': [ '2.2.0' ],
+285 silly audit   minimatch: [ '3.1.2', '5.1.6' ],
+285 silly audit   'karma-jasmine': [ '5.1.0' ],
+285 silly audit   'karma-jasmine-html-reporter': [ '2.0.0' ],
+285 silly audit   'karma-source-map-support': [ '1.4.0' ],
+285 silly audit   tmp: [ '0.2.1', '0.0.33' ],
+285 silly audit   yargs: [ '16.2.0', '17.6.2' ],
+285 silly audit   'yargs-parser': [ '20.2.9', '21.1.1' ],
+285 silly audit   'kind-of': [ '6.0.3' ],
+285 silly audit   klona: [ '2.0.6' ],
+285 silly audit   less: [ '4.1.3' ],
+285 silly audit   'less-loader': [ '11.1.0' ],
+285 silly audit   'make-dir': [ '2.1.0', '3.1.0' ],
+285 silly audit   mime: [ '1.6.0', '2.6.0' ],
+285 silly audit   'license-webpack-plugin': [ '4.0.2' ],
+285 silly audit   'lines-and-columns': [ '1.2.4' ],
+285 silly audit   'loader-runner': [ '4.3.0' ],
+285 silly audit   'locate-path': [ '5.0.0' ],
+285 silly audit   lodash: [ '4.17.21' ],
+285 silly audit   'lodash.debounce': [ '4.0.8' ],
+285 silly audit   'log-symbols': [ '4.1.0' ],
+285 silly audit   log4js: [ '6.7.1' ],
+285 silly audit   'magic-string': [ '0.27.0' ],
+285 silly audit   'make-fetch-happen': [ '10.2.1', '11.0.2' ],
+285 silly audit   minipass: [ '3.3.6', '4.0.0' ],
+285 silly audit   ssri: [ '9.0.1', '10.0.1' ],
+285 silly audit   'unique-filename': [ '2.0.1', '3.0.0' ],
+285 silly audit   'unique-slug': [ '3.0.0', '4.0.0' ],
+285 silly audit   yallist: [ '4.0.0', '3.1.1' ],
+285 silly audit   'media-typer': [ '0.3.0' ],
+285 silly audit   memfs: [ '3.4.13' ],
+285 silly audit   'merge-descriptors': [ '1.0.1' ],
+285 silly audit   'merge-stream': [ '2.0.0' ],
+285 silly audit   merge2: [ '1.4.1' ],
+285 silly audit   methods: [ '1.1.2' ],
+285 silly audit   micromatch: [ '4.0.5' ],
+285 silly audit   'mime-db': [ '1.52.0' ],
+285 silly audit   'mime-types': [ '2.1.35' ],
+285 silly audit   'mimic-fn': [ '2.1.0' ],
+285 silly audit   'mini-css-extract-plugin': [ '2.7.2' ],
+285 silly audit   'minimalistic-assert': [ '1.0.1' ],
+285 silly audit   minimist: [ '1.2.7' ],
+285 silly audit   'minipass-collect': [ '1.0.2' ],
+285 silly audit   'minipass-fetch': [ '2.1.2', '3.0.1' ],
+285 silly audit   'minipass-flush': [ '1.0.5' ],
+285 silly audit   'minipass-json-stream': [ '1.0.1' ],
+285 silly audit   'minipass-pipeline': [ '1.2.4' ],
+285 silly audit   'minipass-sized': [ '1.0.3' ],
+285 silly audit   minizlib: [ '2.1.2' ],
+285 silly audit   'multicast-dns': [ '7.2.5' ],
+285 silly audit   'mute-stream': [ '0.0.8' ],
+285 silly audit   nanoid: [ '3.3.4' ],
+285 silly audit   needle: [ '3.2.0' ],
+285 silly audit   negotiator: [ '0.6.3' ],
+285 silly audit   'neo-async': [ '2.6.2' ],
+285 silly audit   'nice-napi': [ '1.0.2' ],
+285 silly audit   'node-addon-api': [ '3.2.1' ],
+285 silly audit   'node-forge': [ '1.3.1' ],
+285 silly audit   'node-gyp': [ '9.3.1' ],
+285 silly audit   'node-gyp-build': [ '4.6.0' ],
+285 silly audit   'node-releases': [ '2.0.8' ],
+285 silly audit   nopt: [ '6.0.0' ],
+285 silly audit   'normalize-package-data': [ '5.0.0' ],
+285 silly audit   'normalize-path': [ '3.0.0' ],
+285 silly audit   'normalize-range': [ '0.1.2' ],
+285 silly audit   'npm-bundled': [ '3.0.0' ],
+285 silly audit   'npm-install-checks': [ '6.0.0' ],
+285 silly audit   'npm-normalize-package-bin': [ '3.0.0' ],
+285 silly audit   'npm-package-arg': [ '10.1.0' ],
+285 silly audit   'npm-packlist': [ '7.0.4' ],
+285 silly audit   'npm-pick-manifest': [ '8.0.1' ],
+285 silly audit   'npm-registry-fetch': [ '14.0.3' ],
+285 silly audit   'npm-run-path': [ '4.0.1' ],
+285 silly audit   npmlog: [ '6.0.2' ],
+285 silly audit   'nth-check': [ '2.1.1' ],
+285 silly audit   'object-assign': [ '4.1.1' ],
+285 silly audit   'object-inspect': [ '1.12.3' ],
+285 silly audit   obuf: [ '1.1.2' ],
+285 silly audit   'on-headers': [ '1.0.2' ],
+285 silly audit   once: [ '1.4.0' ],
+285 silly audit   onetime: [ '5.1.2' ],
+285 silly audit   open: [ '8.4.0' ],
+285 silly audit   ora: [ '5.4.1' ],
+285 silly audit   'os-tmpdir': [ '1.0.2' ],
+285 silly audit   'p-limit': [ '2.3.0' ],
+285 silly audit   'p-locate': [ '4.1.0' ],
+285 silly audit   'p-map': [ '4.0.0' ],
+285 silly audit   'p-retry': [ '4.6.2' ],
+285 silly audit   retry: [ '0.13.1', '0.12.0' ],
+285 silly audit   'p-try': [ '2.2.0' ],
+285 silly audit   pacote: [ '15.0.8' ],
+285 silly audit   pako: [ '1.0.11' ],
+285 silly audit   'parent-module': [ '1.0.1' ],
+285 silly audit   'parse-json': [ '5.2.0' ],
+285 silly audit   'parse-node-version': [ '1.0.1' ],
+285 silly audit   parse5: [ '6.0.1', '7.1.2' ],
+285 silly audit   'parse5-html-rewriting-stream': [ '6.0.1' ],
+285 silly audit   'parse5-htmlparser2-tree-adapter': [ '6.0.1' ],
+285 silly audit   'parse5-sax-parser': [ '6.0.1' ],
+285 silly audit   parseurl: [ '1.3.3' ],
+285 silly audit   'path-exists': [ '4.0.0' ],
+285 silly audit   'path-is-absolute': [ '1.0.1' ],
+285 silly audit   'path-key': [ '3.1.1' ],
+285 silly audit   'path-parse': [ '1.0.7' ],
+285 silly audit   'path-to-regexp': [ '0.1.7' ],
+285 silly audit   'path-type': [ '4.0.0' ],
+285 silly audit   picocolors: [ '1.0.0' ],
+285 silly audit   picomatch: [ '2.3.1' ],
+285 silly audit   pify: [ '4.0.1' ],
+285 silly audit   piscina: [ '3.2.0' ],
+285 silly audit   'pkg-dir': [ '4.2.0' ],
+285 silly audit   postcss: [ '8.4.21' ],
+285 silly audit   'postcss-loader': [ '7.0.2' ],
+285 silly audit   'postcss-modules-extract-imports': [ '3.0.0' ],
+285 silly audit   'postcss-modules-local-by-default': [ '4.0.0' ],
+285 silly audit   'postcss-modules-scope': [ '3.0.0' ],
+285 silly audit   'postcss-modules-values': [ '4.0.0' ],
+285 silly audit   'postcss-selector-parser': [ '6.0.11' ],
+285 silly audit   'postcss-value-parser': [ '4.2.0' ],
+285 silly audit   'pretty-bytes': [ '5.6.0' ],
+285 silly audit   'proc-log': [ '3.0.0' ],
+285 silly audit   'process-nextick-args': [ '2.0.1' ],
+285 silly audit   'promise-inflight': [ '1.0.1' ],
+285 silly audit   'promise-retry': [ '2.0.1' ],
+285 silly audit   'proxy-addr': [ '2.0.7' ],
+285 silly audit   prr: [ '1.0.1' ],
+285 silly audit   punycode: [ '2.3.0' ],
+285 silly audit   qjobs: [ '1.2.0' ],
+285 silly audit   qs: [ '6.11.0' ],
+285 silly audit   'queue-microtask': [ '1.2.3' ],
+285 silly audit   randombytes: [ '2.1.0' ],
+285 silly audit   'range-parser': [ '1.2.1' ],
+285 silly audit   'raw-body': [ '2.5.1' ],
+285 silly audit   'read-package-json': [ '6.0.0' ],
+285 silly audit   'read-package-json-fast': [ '3.0.2' ],
+285 silly audit   readdirp: [ '3.6.0' ],
+285 silly audit   'reflect-metadata': [ '0.1.13' ],
+285 silly audit   regenerate: [ '1.4.2' ],
+285 silly audit   'regenerate-unicode-properties': [ '10.1.0' ],
+285 silly audit   'regenerator-runtime': [ '0.13.11' ],
+285 silly audit   'regenerator-transform': [ '0.15.1' ],
+285 silly audit   'regex-parser': [ '2.2.11' ],
+285 silly audit   'regexpu-core': [ '5.2.2' ],
+285 silly audit   regjsgen: [ '0.7.1' ],
+285 silly audit   regjsparser: [ '0.9.1' ],
+285 silly audit   'require-directory': [ '2.1.1' ],
+285 silly audit   'require-from-string': [ '2.0.2' ],
+285 silly audit   'requires-port': [ '1.0.0' ],
+285 silly audit   resolve: [ '1.22.1' ],
+285 silly audit   'resolve-url-loader': [ '5.0.0' ],
+285 silly audit   'restore-cursor': [ '3.1.0' ],
+285 silly audit   reusify: [ '1.0.4' ],
+285 silly audit   rfdc: [ '1.3.0' ],
+285 silly audit   rimraf: [ '3.0.2' ],
+285 silly audit   'run-async': [ '2.4.1' ],
+285 silly audit   'run-parallel': [ '1.2.0' ],
+285 silly audit   'safer-buffer': [ '2.1.2' ],
+285 silly audit   sass: [ '1.57.1' ],
+285 silly audit   'sass-loader': [ '13.2.0' ],
+285 silly audit   sax: [ '1.2.4' ],
+285 silly audit   'schema-utils': [ '4.0.0', '3.1.1' ],
+285 silly audit   'select-hose': [ '2.0.0' ],
+285 silly audit   selfsigned: [ '2.1.1' ],
+285 silly audit   send: [ '0.18.0' ],
+285 silly audit   'serialize-javascript': [ '6.0.1' ],
+285 silly audit   'serve-index': [ '1.9.1' ],
+285 silly audit   setprototypeof: [ '1.1.0', '1.2.0' ],
+285 silly audit   'serve-static': [ '1.15.0' ],
+285 silly audit   'set-blocking': [ '2.0.0' ],
+285 silly audit   'shallow-clone': [ '3.0.1' ],
+285 silly audit   'shebang-command': [ '2.0.0' ],
+285 silly audit   'shebang-regex': [ '3.0.0' ],
+285 silly audit   'side-channel': [ '1.0.4' ],
+285 silly audit   'signal-exit': [ '3.0.7' ],
+285 silly audit   slash: [ '4.0.0' ],
+285 silly audit   'smart-buffer': [ '4.2.0' ],
+285 silly audit   'socket.io': [ '4.5.4' ],
+285 silly audit   'socket.io-adapter': [ '2.4.0' ],
+285 silly audit   'socket.io-parser': [ '4.2.2' ],
+285 silly audit   sockjs: [ '0.3.24' ],
+285 silly audit   socks: [ '2.7.1' ],
+285 silly audit   'socks-proxy-agent': [ '7.0.0' ],
+285 silly audit   'source-map-js': [ '1.0.2' ],
+285 silly audit   'source-map-loader': [ '4.0.1' ],
+285 silly audit   'source-map-support': [ '0.5.21' ],
+285 silly audit   'spdx-correct': [ '3.1.1' ],
+285 silly audit   'spdx-exceptions': [ '2.3.0' ],
+285 silly audit   'spdx-expression-parse': [ '3.0.1' ],
+285 silly audit   'spdx-license-ids': [ '3.0.12' ],
+285 silly audit   spdy: [ '4.0.2' ],
+285 silly audit   'spdy-transport': [ '3.0.0' ],
+285 silly audit   'sprintf-js': [ '1.0.3' ],
+285 silly audit   streamroller: [ '3.1.4' ],
+285 silly audit   'string-width': [ '4.2.3' ],
+285 silly audit   'strip-ansi': [ '6.0.1' ],
+285 silly audit   'strip-final-newline': [ '2.0.0' ],
+285 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+285 silly audit   sweetalert2: [ '11.7.1' ],
+285 silly audit   'symbol-observable': [ '4.0.0' ],
+285 silly audit   tapable: [ '2.2.1' ],
+285 silly audit   tar: [ '6.1.13' ],
+285 silly audit   terser: [ '5.16.1' ],
+285 silly audit   'terser-webpack-plugin': [ '5.3.6' ],
+285 silly audit   'test-exclude': [ '6.0.0' ],
+285 silly audit   'text-table': [ '0.2.0' ],
+285 silly audit   through: [ '2.3.8' ],
+285 silly audit   thunky: [ '1.1.0' ],
+285 silly audit   'to-fast-properties': [ '2.0.0' ],
+285 silly audit   'to-regex-range': [ '5.0.1' ],
+285 silly audit   toidentifier: [ '1.0.1' ],
+285 silly audit   'tree-kill': [ '1.2.2' ],
+285 silly audit   'type-fest': [ '0.21.3' ],
+285 silly audit   'type-is': [ '1.6.18' ],
+285 silly audit   'typed-assert': [ '1.0.9' ],
+285 silly audit   typescript: [ '4.9.4' ],
+285 silly audit   'ua-parser-js': [ '0.7.32' ],
+285 silly audit   'unicode-canonical-property-names-ecmascript': [ '2.0.0' ],
+285 silly audit   'unicode-match-property-ecmascript': [ '2.0.0' ],
+285 silly audit   'unicode-match-property-value-ecmascript': [ '2.1.0' ],
+285 silly audit   'unicode-property-aliases-ecmascript': [ '2.1.0' ],
+285 silly audit   universalify: [ '0.1.2' ],
+285 silly audit   unpipe: [ '1.0.0' ],
+285 silly audit   'update-browserslist-db': [ '1.0.10' ],
+285 silly audit   'uri-js': [ '4.4.1' ],
+285 silly audit   'util-deprecate': [ '1.0.2' ],
+285 silly audit   'utils-merge': [ '1.0.1' ],
+285 silly audit   uuid: [ '8.3.2' ],
+285 silly audit   'validate-npm-package-license': [ '3.0.4' ],
+285 silly audit   'validate-npm-package-name': [ '5.0.0' ],
+285 silly audit   vary: [ '1.1.2' ],
+285 silly audit   'void-elements': [ '2.0.1' ],
+285 silly audit   watchpack: [ '2.4.0' ],
+285 silly audit   wbuf: [ '1.7.3' ],
+285 silly audit   wcwidth: [ '1.0.1' ],
+285 silly audit   webpack: [ '5.75.0' ],
+285 silly audit   'webpack-dev-middleware': [ '6.0.1', '5.3.3' ],
+285 silly audit   'webpack-dev-server': [ '4.11.1' ],
+285 silly audit   ws: [ '8.12.0', '8.2.3' ],
+285 silly audit   'webpack-merge': [ '5.8.0' ],
+285 silly audit   'webpack-sources': [ '3.2.3' ],
+285 silly audit   'webpack-subresource-integrity': [ '5.1.0' ],
+285 silly audit   'websocket-driver': [ '0.7.4' ],
+285 silly audit   'websocket-extensions': [ '0.1.4' ],
+285 silly audit   'wide-align': [ '1.1.5' ],
+285 silly audit   wildcard: [ '2.0.0' ],
+285 silly audit   'wrap-ansi': [ '7.0.0' ],
+285 silly audit   wrappy: [ '1.0.2' ],
+285 silly audit   y18n: [ '5.0.8' ],
+285 silly audit   yaml: [ '1.10.2' ],
+285 silly audit   'zone.js': [ '0.12.0' ],
+285 silly audit   '@angular/material': [ '15.1.2' ],
+285 silly audit   '@angular/cdk': [ '15.1.2' ],
+285 silly audit   '@material/animation': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/auto-init': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/banner': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/base': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/button': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/card': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/checkbox': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/chips': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/circular-progress': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/data-table': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/density': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/dialog': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/dom': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/drawer': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/elevation': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/fab': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/feature-targeting': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/floating-label': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/form-field': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/icon-button': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/image-list': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/layout-grid': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/line-ripple': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/linear-progress': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/list': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/menu': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/menu-surface': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/notched-outline': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/radio': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/ripple': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/rtl': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/segmented-button': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/select': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/shape': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/slider': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/snackbar': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/switch': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/tab': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/tab-bar': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/tab-indicator': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/tab-scroller': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/textfield': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/theme': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/tooltip': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/top-app-bar': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/touch-target': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/typography': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/tokens': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   '@material/focus-ring': [ '15.0.0-canary.684e33d25.0' ],
+285 silly audit   safevalues: [ '0.3.4' ],
+285 silly audit   '@material/progress-indicator': [ '15.0.0-canary.684e33d25.0' ]
+285 silly audit }
+286 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\nice-napi
+287 silly reify mark deleted [
+287 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\nice-napi'
+287 silly reify ]
+288 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\node-addon-api
+289 silly reify mark deleted [
+289 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\node-addon-api'
+289 silly reify ]
+290 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\node-gyp-build
+291 silly reify mark deleted [
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\node-gyp-build',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build.cmd',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build.ps1',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build-optional',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build-optional.cmd',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build-optional.ps1',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build-test',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build-test.cmd',
+291 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\.bin\\node-gyp-build-test.ps1'
+291 silly reify ]
+292 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\fsevents
+293 silly reify mark deleted [
+293 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\fsevents'
+293 silly reify ]
+294 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\win32-ia32
+295 silly reify mark deleted [
+295 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\win32-ia32'
+295 silly reify ]
+296 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\win32-arm64
+297 silly reify mark deleted [
+297 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\win32-arm64'
+297 silly reify ]
+298 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\sunos-x64
+299 silly reify mark deleted [
+299 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\sunos-x64'
+299 silly reify ]
+300 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\openbsd-x64
+301 silly reify mark deleted [
+301 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\openbsd-x64'
+301 silly reify ]
+302 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\netbsd-x64
+303 silly reify mark deleted [
+303 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\netbsd-x64'
+303 silly reify ]
+304 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-x64
+305 silly reify mark deleted [
+305 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-x64'
+305 silly reify ]
+306 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-s390x
+307 silly reify mark deleted [
+307 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-s390x'
+307 silly reify ]
+308 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-riscv64
+309 silly reify mark deleted [
+309 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-riscv64'
+309 silly reify ]
+310 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-ppc64
+311 silly reify mark deleted [
+311 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-ppc64'
+311 silly reify ]
+312 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-mips64el
+313 silly reify mark deleted [
+313 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-mips64el'
+313 silly reify ]
+314 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-loong64
+315 silly reify mark deleted [
+315 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-loong64'
+315 silly reify ]
+316 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-ia32
+317 silly reify mark deleted [
+317 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-ia32'
+317 silly reify ]
+318 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-arm64
+319 silly reify mark deleted [
+319 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-arm64'
+319 silly reify ]
+320 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\linux-arm
+321 silly reify mark deleted [
+321 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\linux-arm'
+321 silly reify ]
+322 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\freebsd-x64
+323 silly reify mark deleted [
+323 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\freebsd-x64'
+323 silly reify ]
+324 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\freebsd-arm64
+325 silly reify mark deleted [
+325 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\freebsd-arm64'
+325 silly reify ]
+326 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\darwin-x64
+327 silly reify mark deleted [
+327 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\darwin-x64'
+327 silly reify ]
+328 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\darwin-arm64
+329 silly reify mark deleted [
+329 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\darwin-arm64'
+329 silly reify ]
+330 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\android-x64
+331 silly reify mark deleted [
+331 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\android-x64'
+331 silly reify ]
+332 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\android-arm64
+333 silly reify mark deleted [
+333 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\android-arm64'
+333 silly reify ]
+334 verbose reify failed optional dependency C:\Users\Humberto Manjarres\Desktop\CURSOS\ANGULAR\handyman\handyman\node_modules\@esbuild\android-arm
+335 silly reify mark deleted [
+335 silly reify   'C:\\Users\\Humberto Manjarres\\Desktop\\CURSOS\\ANGULAR\\handyman\\handyman\\node_modules\\@esbuild\\android-arm'
+335 silly reify ]
+336 timing reifyNode:node_modules/nice-napi Completed in 34ms
+337 timing reifyNode:node_modules/fsevents Completed in 34ms
+338 timing reifyNode:node_modules/@esbuild/win32-ia32 Completed in 34ms
+339 timing reifyNode:node_modules/@esbuild/win32-arm64 Completed in 34ms
+340 timing reifyNode:node_modules/@esbuild/sunos-x64 Completed in 34ms
+341 timing reifyNode:node_modules/@esbuild/openbsd-x64 Completed in 34ms
+342 timing reifyNode:node_modules/@esbuild/netbsd-x64 Completed in 34ms
+343 timing reifyNode:node_modules/@esbuild/linux-x64 Completed in 34ms
+344 timing reifyNode:node_modules/@esbuild/linux-s390x Completed in 34ms
+345 timing reifyNode:node_modules/@esbuild/linux-riscv64 Completed in 34ms
+346 timing reifyNode:node_modules/@esbuild/linux-ppc64 Completed in 34ms
+347 timing reifyNode:node_modules/@esbuild/linux-mips64el Completed in 34ms
+348 timing reifyNode:node_modules/@esbuild/linux-loong64 Completed in 34ms
+349 timing reifyNode:node_modules/@esbuild/linux-ia32 Completed in 34ms
+350 timing reifyNode:node_modules/@esbuild/linux-arm64 Completed in 34ms
+351 timing reifyNode:node_modules/@esbuild/linux-arm Completed in 34ms
+352 timing reifyNode:node_modules/@esbuild/freebsd-x64 Completed in 34ms
+353 timing reifyNode:node_modules/@esbuild/freebsd-arm64 Completed in 35ms
+354 timing reifyNode:node_modules/@esbuild/darwin-x64 Completed in 35ms
+355 timing reifyNode:node_modules/@esbuild/darwin-arm64 Completed in 35ms
+356 timing reifyNode:node_modules/@esbuild/android-x64 Completed in 35ms
+357 timing reifyNode:node_modules/@esbuild/android-arm64 Completed in 35ms
+358 timing reifyNode:node_modules/@esbuild/android-arm Completed in 35ms
+359 silly tarball no local data for @material/progress-indicator@https://registry.npmjs.org/@material/progress-indicator/-/progress-indicator-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+360 silly tarball no local data for @material/focus-ring@https://registry.npmjs.org/@material/focus-ring/-/focus-ring-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+361 silly tarball no local data for safevalues@https://registry.npmjs.org/safevalues/-/safevalues-0.3.4.tgz. Extracting by manifest.
+362 silly tarball no local data for @material/tokens@https://registry.npmjs.org/@material/tokens/-/tokens-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+363 silly tarball no local data for @material/touch-target@https://registry.npmjs.org/@material/touch-target/-/touch-target-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+364 silly tarball no local data for @material/top-app-bar@https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+365 silly tarball no local data for @material/typography@https://registry.npmjs.org/@material/typography/-/typography-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+366 silly tarball no local data for @material/tooltip@https://registry.npmjs.org/@material/tooltip/-/tooltip-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+367 silly tarball no local data for @material/theme@https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+368 silly tarball no local data for @material/textfield@https://registry.npmjs.org/@material/textfield/-/textfield-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+369 silly tarball no local data for @material/tab-scroller@https://registry.npmjs.org/@material/tab-scroller/-/tab-scroller-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+370 silly tarball no local data for @material/tab-indicator@https://registry.npmjs.org/@material/tab-indicator/-/tab-indicator-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+371 silly tarball no local data for @material/switch@https://registry.npmjs.org/@material/switch/-/switch-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+372 silly tarball no local data for @material/tab-bar@https://registry.npmjs.org/@material/tab-bar/-/tab-bar-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+373 silly tarball no local data for @material/tab@https://registry.npmjs.org/@material/tab/-/tab-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+374 silly tarball no local data for @material/shape@https://registry.npmjs.org/@material/shape/-/shape-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+375 silly tarball no local data for @material/slider@https://registry.npmjs.org/@material/slider/-/slider-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+376 silly tarball no local data for @material/select@https://registry.npmjs.org/@material/select/-/select-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+377 silly tarball no local data for @material/rtl@https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+378 silly tarball no local data for @material/snackbar@https://registry.npmjs.org/@material/snackbar/-/snackbar-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+379 silly tarball no local data for @material/segmented-button@https://registry.npmjs.org/@material/segmented-button/-/segmented-button-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+380 silly tarball no local data for @material/ripple@https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+381 silly tarball no local data for @material/radio@https://registry.npmjs.org/@material/radio/-/radio-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+382 silly tarball no local data for @material/notched-outline@https://registry.npmjs.org/@material/notched-outline/-/notched-outline-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+383 silly tarball no local data for @material/menu@https://registry.npmjs.org/@material/menu/-/menu-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+384 silly tarball no local data for @material/menu-surface@https://registry.npmjs.org/@material/menu-surface/-/menu-surface-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+385 silly tarball no local data for @material/list@https://registry.npmjs.org/@material/list/-/list-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+386 silly tarball no local data for @material/linear-progress@https://registry.npmjs.org/@material/linear-progress/-/linear-progress-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+387 silly tarball no local data for @material/layout-grid@https://registry.npmjs.org/@material/layout-grid/-/layout-grid-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+388 silly tarball no local data for @material/line-ripple@https://registry.npmjs.org/@material/line-ripple/-/line-ripple-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+389 silly tarball no local data for @material/image-list@https://registry.npmjs.org/@material/image-list/-/image-list-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+390 silly tarball no local data for @material/icon-button@https://registry.npmjs.org/@material/icon-button/-/icon-button-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+391 silly tarball no local data for @material/form-field@https://registry.npmjs.org/@material/form-field/-/form-field-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+392 silly tarball no local data for @material/floating-label@https://registry.npmjs.org/@material/floating-label/-/floating-label-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+393 silly tarball no local data for @material/feature-targeting@https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+394 silly tarball no local data for @material/elevation@https://registry.npmjs.org/@material/elevation/-/elevation-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+395 silly tarball no local data for @material/dom@https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+396 silly tarball no local data for @material/drawer@https://registry.npmjs.org/@material/drawer/-/drawer-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+397 silly tarball no local data for @material/fab@https://registry.npmjs.org/@material/fab/-/fab-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+398 silly tarball no local data for @material/dialog@https://registry.npmjs.org/@material/dialog/-/dialog-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+399 silly tarball no local data for @material/density@https://registry.npmjs.org/@material/density/-/density-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+400 silly tarball no local data for @material/data-table@https://registry.npmjs.org/@material/data-table/-/data-table-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+401 silly tarball no local data for @material/circular-progress@https://registry.npmjs.org/@material/circular-progress/-/circular-progress-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+402 silly tarball no local data for @material/chips@https://registry.npmjs.org/@material/chips/-/chips-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+403 silly tarball no local data for @material/card@https://registry.npmjs.org/@material/card/-/card-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+404 silly tarball no local data for @material/checkbox@https://registry.npmjs.org/@material/checkbox/-/checkbox-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+405 silly tarball no local data for @material/base@https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+406 silly tarball no local data for @material/banner@https://registry.npmjs.org/@material/banner/-/banner-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+407 silly tarball no local data for @material/button@https://registry.npmjs.org/@material/button/-/button-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+408 silly tarball no local data for @material/auto-init@https://registry.npmjs.org/@material/auto-init/-/auto-init-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+409 silly tarball no local data for @material/animation@https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.684e33d25.0.tgz. Extracting by manifest.
+410 silly tarball no local data for @angular/cdk@https://registry.npmjs.org/@angular/cdk/-/cdk-15.1.2.tgz. Extracting by manifest.
+411 silly tarball no local data for @angular/material@https://registry.npmjs.org/@angular/material/-/material-15.1.2.tgz. Extracting by manifest.
+412 silly tarball no local data for entities@https://registry.npmjs.org/entities/-/entities-4.4.0.tgz. Extracting by manifest.
+413 silly tarball no local data for parse5@https://registry.npmjs.org/parse5/-/parse5-7.1.2.tgz. Extracting by manifest.
+414 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 316ms
+415 timing auditReport:getReport Completed in 348ms
+416 silly audit report {
+416 silly audit report   sweetalert2: [
+416 silly audit report     {
+416 silly audit report       id: 1087983,
+416 silly audit report       url: 'https://github.com/advisories/GHSA-qq6h-5g6j-q3cm',
+416 silly audit report       title: 'sweetalert2 v11.4.9 and above contains hidden functionality',
+416 silly audit report       severity: 'low',
+416 silly audit report       vulnerable_versions: '>=11.4.9',
+416 silly audit report       cwe: [Array],
+416 silly audit report       cvss: [Object]
+416 silly audit report     }
+416 silly audit report   ],
+416 silly audit report   'ua-parser-js': [
+416 silly audit report     {
+416 silly audit report       id: 1088697,
+416 silly audit report       url: 'https://github.com/advisories/GHSA-fhg7-m89q-25r3',
+416 silly audit report       title: 'ReDoS Vulnerability in ua-parser-js version ',
+416 silly audit report       severity: 'high',
+416 silly audit report       vulnerable_versions: '<0.7.33',
+416 silly audit report       cwe: [Array],
+416 silly audit report       cvss: [Object]
+416 silly audit report     }
+416 silly audit report   ]
+416 silly audit report }
+417 timing metavuln:cache:get:security-advisory:sweetalert2:7TNUkikHZPhrnUTitl/vHjtyeRdzzjOZ1y6farJKWbncbmLei8SxeQm7hoqZjHl1tzKoWAulx7BwmJyrKiJTiQ== Completed in 16ms
+418 timing metavuln:cache:get:security-advisory:ua-parser-js:dOpjdBS8LubXbcE5oACcbfxiYRsnJG8NtT6qeFvGmJqPJpJvjRlc8KNyNiD8dSMjyWaetgtO7VNYTCUzj/i50w== Completed in 14ms
+419 timing reifyNode:node_modules/node-gyp-build Completed in 372ms
+420 timing reifyNode:node_modules/node-addon-api Completed in 439ms
+421 http fetch GET 200 https://registry.npmjs.org/@material/typography/-/typography-15.0.0-canary.684e33d25.0.tgz 516ms (cache miss)
+422 timing reifyNode:node_modules/@material/typography Completed in 620ms
+423 http fetch GET 200 https://registry.npmjs.org/@material/focus-ring/-/focus-ring-15.0.0-canary.684e33d25.0.tgz 870ms (cache miss)
+424 timing reifyNode:node_modules/@material/focus-ring Completed in 965ms
+425 http fetch GET 200 https://registry.npmjs.org/@material/touch-target/-/touch-target-15.0.0-canary.684e33d25.0.tgz 898ms (cache miss)
+426 http fetch GET 200 https://registry.npmjs.org/@material/progress-indicator/-/progress-indicator-15.0.0-canary.684e33d25.0.tgz 942ms (cache miss)
+427 http fetch GET 200 https://registry.npmjs.org/@material/shape/-/shape-15.0.0-canary.684e33d25.0.tgz 943ms (cache miss)
+428 timing reifyNode:node_modules/@material/progress-indicator Completed in 1137ms
+429 timing reifyNode:node_modules/@material/touch-target Completed in 1140ms
+430 timing reifyNode:node_modules/@material/shape Completed in 1207ms
+431 http fetch GET 200 https://registry.npmjs.org/@material/rtl/-/rtl-15.0.0-canary.684e33d25.0.tgz 1290ms (cache miss)
+432 http fetch GET 200 https://registry.npmjs.org/safevalues/-/safevalues-0.3.4.tgz 1428ms (cache miss)
+433 timing reifyNode:node_modules/safevalues Completed in 1526ms
+434 timing reifyNode:node_modules/@material/rtl Completed in 1601ms
+435 http fetch GET 200 https://registry.npmjs.org/@material/tab-indicator/-/tab-indicator-15.0.0-canary.684e33d25.0.tgz 1502ms (cache miss)
+436 timing reifyNode:node_modules/@material/tab-indicator Completed in 1659ms
+437 http fetch GET 200 https://registry.npmjs.org/@material/theme/-/theme-15.0.0-canary.684e33d25.0.tgz 1572ms (cache miss)
+438 timing reifyNode:node_modules/@material/theme Completed in 1685ms
+439 http fetch GET 200 https://registry.npmjs.org/@material/tab/-/tab-15.0.0-canary.684e33d25.0.tgz 1670ms (cache miss)
+440 http fetch GET 200 https://registry.npmjs.org/@material/tab-bar/-/tab-bar-15.0.0-canary.684e33d25.0.tgz 1676ms (cache miss)
+441 timing reifyNode:node_modules/@material/tab Completed in 1805ms
+442 timing reifyNode:node_modules/@material/tab-bar Completed in 1808ms
+443 http fetch GET 200 https://registry.npmjs.org/@material/tooltip/-/tooltip-15.0.0-canary.684e33d25.0.tgz 1764ms (cache miss)
+444 timing reifyNode:node_modules/@material/tooltip Completed in 1880ms
+445 http fetch GET 200 https://registry.npmjs.org/@material/tab-scroller/-/tab-scroller-15.0.0-canary.684e33d25.0.tgz 1844ms (cache miss)
+446 timing reifyNode:node_modules/@material/tab-scroller Completed in 1973ms
+447 http fetch GET 200 https://registry.npmjs.org/@material/layout-grid/-/layout-grid-15.0.0-canary.684e33d25.0.tgz 1868ms (cache miss)
+448 http fetch GET 200 https://registry.npmjs.org/@material/top-app-bar/-/top-app-bar-15.0.0-canary.684e33d25.0.tgz 1970ms (cache miss)
+449 timing reifyNode:node_modules/@material/top-app-bar Completed in 2080ms
+450 http fetch GET 200 https://registry.npmjs.org/@material/slider/-/slider-15.0.0-canary.684e33d25.0.tgz 2000ms (cache miss)
+451 timing reifyNode:node_modules/@material/slider Completed in 2129ms
+452 http fetch GET 200 https://registry.npmjs.org/@material/switch/-/switch-15.0.0-canary.684e33d25.0.tgz 2078ms (cache miss)
+453 timing reifyNode:node_modules/@material/layout-grid Completed in 2207ms
+454 timing reifyNode:node_modules/@material/switch Completed in 2232ms
+455 http fetch GET 200 https://registry.npmjs.org/@material/feature-targeting/-/feature-targeting-15.0.0-canary.684e33d25.0.tgz 2161ms (cache miss)
+456 http fetch GET 200 https://registry.npmjs.org/@material/elevation/-/elevation-15.0.0-canary.684e33d25.0.tgz 2199ms (cache miss)
+457 http fetch GET 200 https://registry.npmjs.org/@material/menu/-/menu-15.0.0-canary.684e33d25.0.tgz 2269ms (cache miss)
+458 timing reifyNode:node_modules/@material/feature-targeting Completed in 2418ms
+459 timing reifyNode:node_modules/@material/menu Completed in 2427ms
+460 http fetch GET 200 https://registry.npmjs.org/@material/image-list/-/image-list-15.0.0-canary.684e33d25.0.tgz 2288ms (cache miss)
+461 timing reifyNode:node_modules/@material/image-list Completed in 2465ms
+462 http fetch GET 200 https://registry.npmjs.org/@material/notched-outline/-/notched-outline-15.0.0-canary.684e33d25.0.tgz 2368ms (cache miss)
+463 timing reifyNode:node_modules/@material/notched-outline Completed in 2522ms
+464 http fetch GET 200 https://registry.npmjs.org/@material/density/-/density-15.0.0-canary.684e33d25.0.tgz 2339ms (cache miss)
+465 http fetch GET 200 https://registry.npmjs.org/@material/snackbar/-/snackbar-15.0.0-canary.684e33d25.0.tgz 2403ms (cache miss)
+466 timing reifyNode:node_modules/@material/snackbar Completed in 2544ms
+467 http fetch GET 200 https://registry.npmjs.org/@material/menu-surface/-/menu-surface-15.0.0-canary.684e33d25.0.tgz 2450ms (cache miss)
+468 timing reifyNode:node_modules/@material/menu-surface Completed in 2608ms
+469 timing reifyNode:node_modules/@material/density Completed in 2632ms
+470 http fetch GET 200 https://registry.npmjs.org/@material/ripple/-/ripple-15.0.0-canary.684e33d25.0.tgz 2504ms (cache miss)
+471 timing reifyNode:node_modules/@material/ripple Completed in 2649ms
+472 http fetch GET 200 https://registry.npmjs.org/sweetalert2 2443ms (cache revalidated)
+473 timing metavuln:packument:sweetalert2 Completed in 2467ms
+474 timing metavuln:load:security-advisory:sweetalert2:1087983 Completed in 9ms
+475 timing metavuln:calculate:security-advisory:sweetalert2:1087983 Completed in 2478ms
+476 http fetch GET 200 https://registry.npmjs.org/@material/tokens/-/tokens-15.0.0-canary.684e33d25.0.tgz 2700ms (cache miss)
+477 timing reifyNode:node_modules/@material/tokens Completed in 2810ms
+478 http fetch GET 200 https://registry.npmjs.org/@material/radio/-/radio-15.0.0-canary.684e33d25.0.tgz 2685ms (cache miss)
+479 http fetch GET 200 https://registry.npmjs.org/ua-parser-js 2534ms (cache revalidated)
+480 timing metavuln:packument:ua-parser-js Completed in 2536ms
+481 timing metavuln:load:security-advisory:ua-parser-js:1088697 Completed in 1ms
+482 timing metavuln:calculate:security-advisory:ua-parser-js:1088697 Completed in 2537ms
+483 http fetch GET 200 https://registry.npmjs.org/@material/line-ripple/-/line-ripple-15.0.0-canary.684e33d25.0.tgz 2778ms (cache miss)
+484 timing reifyNode:node_modules/@material/radio Completed in 2941ms
+485 timing reifyNode:node_modules/@material/elevation Completed in 2967ms
+486 timing reifyNode:node_modules/@material/line-ripple Completed in 2996ms
+487 timing metavuln:cache:get:security-advisory:karma:fG5kgIkXk7GZHit/ejkat0mOoJG8Pxqp0r2agLCZrvYaeUwhBX+HKsN2fQbeGE1k49krzGxSZG/v0rVD4kE4EQ== Completed in 112ms
+488 http fetch GET 200 https://registry.npmjs.org/@material/dom/-/dom-15.0.0-canary.684e33d25.0.tgz 2887ms (cache miss)
+489 http fetch GET 200 https://registry.npmjs.org/@material/linear-progress/-/linear-progress-15.0.0-canary.684e33d25.0.tgz 2915ms (cache miss)
+490 timing reifyNode:node_modules/@material/dom Completed in 3083ms
+491 timing reifyNode:node_modules/@material/linear-progress Completed in 3084ms
+492 http fetch GET 200 https://registry.npmjs.org/@material/animation/-/animation-15.0.0-canary.684e33d25.0.tgz 2903ms (cache miss)
+493 http fetch GET 200 https://registry.npmjs.org/@material/segmented-button/-/segmented-button-15.0.0-canary.684e33d25.0.tgz 3016ms (cache miss)
+494 timing reifyNode:node_modules/@material/segmented-button Completed in 3162ms
+495 http fetch GET 200 https://registry.npmjs.org/@material/fab/-/fab-15.0.0-canary.684e33d25.0.tgz 2989ms (cache miss)
+496 timing reifyNode:node_modules/@material/fab Completed in 3178ms
+497 http fetch GET 200 https://registry.npmjs.org/@material/auto-init/-/auto-init-15.0.0-canary.684e33d25.0.tgz 3063ms (cache miss)
+498 http fetch GET 200 https://registry.npmjs.org/karma 383ms (cache revalidated)
+499 timing metavuln:packument:karma Completed in 406ms
+500 timing metavuln:load:security-advisory:karma:dOpjdBS8LubXbcE5oACcbfxiYRsnJG8NtT6qeFvGmJqPJpJvjRlc8KNyNiD8dSMjyWaetgtO7VNYTCUzj/i50w== Completed in 2ms
+501 timing metavuln:calculate:security-advisory:karma:dOpjdBS8LubXbcE5oACcbfxiYRsnJG8NtT6qeFvGmJqPJpJvjRlc8KNyNiD8dSMjyWaetgtO7VNYTCUzj/i50w== Completed in 410ms
+502 timing auditReport:init Completed in 3036ms
+503 timing reify:audit Completed in 3386ms
+504 http fetch GET 200 https://registry.npmjs.org/@material/form-field/-/form-field-15.0.0-canary.684e33d25.0.tgz 3193ms (cache miss)
+505 timing reifyNode:node_modules/@material/form-field Completed in 3367ms
+506 http fetch GET 200 https://registry.npmjs.org/@material/floating-label/-/floating-label-15.0.0-canary.684e33d25.0.tgz 3206ms (cache miss)
+507 timing reifyNode:node_modules/@material/floating-label Completed in 3386ms
+508 http fetch GET 200 https://registry.npmjs.org/@material/card/-/card-15.0.0-canary.684e33d25.0.tgz 3325ms (cache miss)
+509 timing reifyNode:node_modules/@material/auto-init Completed in 3528ms
+510 timing reifyNode:node_modules/@material/card Completed in 3529ms
+511 http fetch GET 200 https://registry.npmjs.org/@material/list/-/list-15.0.0-canary.684e33d25.0.tgz 3389ms (cache miss)
+512 timing reifyNode:node_modules/@material/list Completed in 3542ms
+513 timing reifyNode:node_modules/@material/animation Completed in 3603ms
+514 http fetch GET 200 https://registry.npmjs.org/@material/icon-button/-/icon-button-15.0.0-canary.684e33d25.0.tgz 3442ms (cache miss)
+515 timing reifyNode:node_modules/@material/icon-button Completed in 3631ms
+516 http fetch GET 200 https://registry.npmjs.org/@material/textfield/-/textfield-15.0.0-canary.684e33d25.0.tgz 3620ms (cache miss)
+517 timing reifyNode:node_modules/@material/textfield Completed in 3744ms
+518 http fetch GET 200 https://registry.npmjs.org/@material/base/-/base-15.0.0-canary.684e33d25.0.tgz 3684ms (cache miss)
+519 timing reifyNode:node_modules/@material/base Completed in 3897ms
+520 http fetch GET 200 https://registry.npmjs.org/@material/circular-progress/-/circular-progress-15.0.0-canary.684e33d25.0.tgz 3727ms (cache miss)
+521 timing reifyNode:node_modules/@material/circular-progress Completed in 3922ms
+522 http fetch GET 200 https://registry.npmjs.org/@material/dialog/-/dialog-15.0.0-canary.684e33d25.0.tgz 3775ms (cache miss)
+523 timing reifyNode:node_modules/@material/dialog Completed in 3963ms
+524 http fetch GET 200 https://registry.npmjs.org/@material/banner/-/banner-15.0.0-canary.684e33d25.0.tgz 3781ms (cache miss)
+525 timing reifyNode:node_modules/@material/banner Completed in 3996ms
+526 http fetch GET 200 https://registry.npmjs.org/@material/drawer/-/drawer-15.0.0-canary.684e33d25.0.tgz 3838ms (cache miss)
+527 timing reifyNode:node_modules/@material/drawer Completed in 4025ms
+528 http fetch GET 200 https://registry.npmjs.org/@material/select/-/select-15.0.0-canary.684e33d25.0.tgz 3914ms (cache miss)
+529 timing reifyNode:node_modules/@material/select Completed in 4046ms
+530 http fetch GET 200 https://registry.npmjs.org/@material/data-table/-/data-table-15.0.0-canary.684e33d25.0.tgz 3891ms (cache miss)
+531 timing reifyNode:node_modules/@material/data-table Completed in 4084ms
+532 http fetch GET 200 https://registry.npmjs.org/@material/button/-/button-15.0.0-canary.684e33d25.0.tgz 3874ms (cache miss)
+533 timing reifyNode:node_modules/@material/button Completed in 4089ms
+534 http fetch GET 200 https://registry.npmjs.org/@material/checkbox/-/checkbox-15.0.0-canary.684e33d25.0.tgz 3898ms (cache miss)
+535 timing reifyNode:node_modules/@material/checkbox Completed in 4096ms
+536 http fetch GET 200 https://registry.npmjs.org/entities/-/entities-4.4.0.tgz 3880ms (cache miss)
+537 timing reifyNode:node_modules/@angular/cdk/node_modules/entities Completed in 4103ms
+538 http fetch GET 200 https://registry.npmjs.org/parse5/-/parse5-7.1.2.tgz 3927ms (cache miss)
+539 timing reifyNode:node_modules/@angular/cdk/node_modules/parse5 Completed in 4157ms
+540 http fetch GET 200 https://registry.npmjs.org/@material/chips/-/chips-15.0.0-canary.684e33d25.0.tgz 4437ms (cache miss)
+541 timing reifyNode:node_modules/@material/chips Completed in 4628ms
+542 http fetch GET 200 https://registry.npmjs.org/@angular/cdk/-/cdk-15.1.2.tgz 8533ms (cache miss)
+543 timing reifyNode:node_modules/@angular/cdk Completed in 8752ms
+544 http fetch GET 200 https://registry.npmjs.org/@angular/material/-/material-15.1.2.tgz 14236ms (cache miss)
+545 timing reifyNode:node_modules/@angular/material Completed in 14456ms
+546 timing reify:unpack Completed in 14461ms
+547 timing reify:unretire Completed in 0ms
+548 timing build:queue Completed in 20ms
+549 timing build:link Completed in 0ms
+550 timing build:deps Completed in 22ms
+551 timing build Completed in 22ms
+552 timing reify:build Completed in 24ms
+553 timing reify:trash Completed in 97ms
+554 timing reify:save Completed in 563ms
+555 timing reify Completed in 55236ms
+556 silly ADD node_modules/@material/progress-indicator
+557 silly ADD node_modules/safevalues
+558 silly ADD node_modules/@material/focus-ring
+559 silly ADD node_modules/@material/tokens
+560 silly ADD node_modules/@material/typography
+561 silly ADD node_modules/@material/touch-target
+562 silly ADD node_modules/@material/top-app-bar
+563 silly ADD node_modules/@material/tooltip
+564 silly ADD node_modules/@material/theme
+565 silly ADD node_modules/@material/textfield
+566 silly ADD node_modules/@material/tab-scroller
+567 silly ADD node_modules/@material/tab-indicator
+568 silly ADD node_modules/@material/tab-bar
+569 silly ADD node_modules/@material/tab
+570 silly ADD node_modules/@material/switch
+571 silly ADD node_modules/@material/snackbar
+572 silly ADD node_modules/@material/slider
+573 silly ADD node_modules/@material/shape
+574 silly ADD node_modules/@material/select
+575 silly ADD node_modules/@material/segmented-button
+576 silly ADD node_modules/@material/rtl
+577 silly ADD node_modules/@material/ripple
+578 silly ADD node_modules/@material/radio
+579 silly ADD node_modules/@material/notched-outline
+580 silly ADD node_modules/@material/menu-surface
+581 silly ADD node_modules/@material/menu
+582 silly ADD node_modules/@material/list
+583 silly ADD node_modules/@material/linear-progress
+584 silly ADD node_modules/@material/line-ripple
+585 silly ADD node_modules/@material/layout-grid
+586 silly ADD node_modules/@material/image-list
+587 silly ADD node_modules/@material/icon-button
+588 silly ADD node_modules/@material/form-field
+589 silly ADD node_modules/@material/floating-label
+590 silly ADD node_modules/@material/feature-targeting
+591 silly ADD node_modules/@material/fab
+592 silly ADD node_modules/@material/elevation
+593 silly ADD node_modules/@material/drawer
+594 silly ADD node_modules/@material/dom
+595 silly ADD node_modules/@material/dialog
+596 silly ADD node_modules/@material/density
+597 silly ADD node_modules/@material/data-table
+598 silly ADD node_modules/@material/circular-progress
+599 silly ADD node_modules/@material/chips
+600 silly ADD node_modules/@material/checkbox
+601 silly ADD node_modules/@material/card
+602 silly ADD node_modules/@material/button
+603 silly ADD node_modules/@material/base
+604 silly ADD node_modules/@material/banner
+605 silly ADD node_modules/@material/auto-init
+606 silly ADD node_modules/@material/animation
+607 silly ADD node_modules/@angular/cdk
+608 silly ADD node_modules/@angular/cdk/node_modules/entities
+609 silly ADD node_modules/@angular/cdk/node_modules/parse5
+610 silly ADD node_modules/@angular/material
+611 silly ADD
+612 silly ADD
+613 silly ADD
+614 silly ADD
+615 silly ADD
+616 silly ADD
+617 silly ADD
+618 silly ADD
+619 silly ADD
+620 silly ADD
+621 silly ADD
+622 silly ADD
+623 silly ADD
+624 silly ADD
+625 silly ADD
+626 silly ADD
+627 silly ADD
+628 silly ADD
+629 silly ADD
+630 silly ADD
+631 silly ADD
+632 silly ADD
+633 silly ADD
+634 silly ADD
+635 silly ADD
+636 silly REMOVE node_modules/__ngcc_entry_points__.json
+637 timing command:install Completed in 55279ms
+638 verbose exit 0
+639 timing npm Completed in 55527ms
+640 info ok
